@@ -1,0 +1,150 @@
+<template>
+  <div class="page">
+    <f7-navbar title="Action Sheet" back-link="Back"></f7-navbar>
+    <div class="page-content">
+      <div class="block row">
+        <div class="col">
+          <a href="#" class="button button-raised" @click="openDemo1">One group</a>
+        </div>
+        <div class="col">
+          <a href="#" class="button button-raised" @click="openDemo2">Two groups</a>
+        </div>
+      </div>
+      <div class="block">
+        <a href="#" class="button button-raised" @click="openGrid">Action Grid</a>
+      </div>
+      <f7-block-title>Action Sheet To Popover</f7-block-title>
+      <div class="block block-strong">
+        <p>Action Sheet can be automatically converted to Popover (for tablets). This button will open Popover on tablets and Action Sheet on phones: <a href="#" style="display:inline-block" class="button button-to-popover" @click="openActionsPopover">Actions</a></p>
+      </div>
+    </div>
+  </div>
+</template>
+<script>
+import { f7Navbar, f7Page, f7BlockTitle } from 'framework7-vue';
+
+export default {
+  components: {
+    f7Page,
+    f7Navbar,
+    f7BlockTitle,
+  },
+  methods: {
+    openDemo1: function () {
+      var self = this;
+      self.actions1.open();
+    },
+    openDemo2: function () {
+      var self = this;
+      self.actions2.open();
+    },
+    openGrid: function () {
+      var self = this;
+      self.actionsGrid.open();
+    },
+    openActionsPopover: function () {
+      var self = this;
+      self.actionsToPopover.open();
+    },
+  },
+  on: {
+    pageBeforeRemove() {
+      var self = this;
+      self.actions1.destroy();
+      self.actions2.destroy();
+      self.actionsGrid.destroy();
+      self.actionsToPopover.destroy();
+    },
+    pageInit: function(page) {
+      var self = this;
+
+      // 1 Group
+      var buttons1 = [
+        {
+          text: 'Do something',
+          label: true
+        },
+        {
+          text: 'Button 1',
+          bold: true
+        },
+        {
+          text: 'Button 2',
+        },
+        {
+          text: 'Cancel',
+          color: 'red'
+        },
+      ];
+
+      // 2 Groups
+      var buttons2 = [
+        // First Group
+        [
+          {
+            text: 'Do something',
+            label: true
+          },
+          {
+            text: 'Button 1',
+            bold: true
+          },
+          {
+            text: 'Button 2',
+          }
+        ],
+        // Second Group
+        [
+          {
+            text: 'Cancel',
+            color: 'red'
+          }
+        ]
+      ]
+
+      // Grid buttons with icons/images
+      var gridButtons = [
+        [
+          {
+            text: 'Button 1',
+            icon: '<img src="http://lorempixel.com/96/96/people/1" width="48"/>'
+          },
+          {
+            text: 'Button 2',
+            icon: '<img src="http://lorempixel.com/96/96/people/2" width="48">'
+          },
+          {
+            text: 'Button 3',
+            icon: '<img src="http://lorempixel.com/96/96/people/3" width="48">'
+          },
+        ],
+        [
+          {
+            text: 'Button 1',
+            icon: '<img src="http://lorempixel.com/96/96/fashion/4" width="48"/>'
+          },
+          {
+            text: 'Button 2',
+            icon: '<img src="http://lorempixel.com/96/96/fashion/5" width="48">'
+          },
+          {
+            text: 'Button 3',
+            icon: '<img src="http://lorempixel.com/96/96/fashion/6" width="48">'
+          },
+        ],
+      ]
+
+      self.actions1 = self.$app.actions.create({buttons: buttons1});
+      self.actions2 = self.$app.actions.create({buttons: buttons2});
+      self.actionsGrid = self.$app.actions.create({buttons: gridButtons, grid: true});
+
+      // Actions To Popover
+      self.actionsToPopover = self.$app.actions.create({
+        buttons: buttons1,
+        // Need to specify popover target
+        targetEl: self.$el.find('.button-to-popover')
+      });
+    }
+  }
+}
+</script>

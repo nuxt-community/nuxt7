@@ -1,0 +1,123 @@
+<template>
+<div class="page">
+  <f7-navbar title="Cards" back-link="Back"></f7-navbar>
+  <div class="page-content">
+    <div class="block">
+      <p>Cards are a great way to contain and organize your information, especially when combined with List Views. Cards can contain unique related data, like for example photos, text or links about a particular subject. Cards are typically an entry point to more complex and detailed information.</p>
+    </div>
+    <f7-block-title>Simple Cards</f7-block-title>
+    <div class="card">
+      <div class="card-content card-content-padding">This is a simple card with plain text, but cards can also contain their own header, footer, list view, image, or any other element.</div>
+    </div>
+    <div class="card">
+      <div class="card-header">Card header</div>
+      <div class="card-content card-content-padding">Card with header and footer. Card headers are used to display card titles and footers for additional information or just for custom actions.</div>
+      <div class="card-footer">Card Footer</div>
+    </div>
+    <div class="card">
+      <div class="card-content card-content-padding">Another card. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat sem est, non tincidunt ligula volutpat sit amet. Mauris aliquet magna justo. </div>
+    </div>
+    <f7-block-title>Styled Cards</f7-block-title>
+    <div class="card demo-card-header-pic">
+      <div style="background-image:url(http://lorempixel.com/1000/600/nature/3/)" valign="bottom" class="card-header no-border">Journey To Mountains</div>
+      <div class="card-content card-content-padding">
+        <p class="date">Posted on January 21, 2015</p>
+        <p>Quisque eget vestibulum nulla. Quisque quis dui quis ex ultricies efficitur vitae non felis. Phasellus quis nibh hendrerit...</p>
+      </div>
+      <div class="card-footer"><a href="#" class="link">Like</a><a href="#" class="link">Read more</a></div>
+    </div>
+    <div class="card demo-card-header-pic">
+      <div style="background-image:url(http://lorempixel.com/1000/600/people/6/)" valign="bottom" class="card-header no-border">Lorem Ipsum</div>
+      <div class="card-content card-content-padding">
+        <p class="date">Posted on January 21, 2015</p>
+        <p>Quisque eget vestibulum nulla. Quisque quis dui quis ex ultricies efficitur vitae non felis. Phasellus quis nibh hendrerit...</p>
+      </div>
+      <div class="card-footer"><a href="#" class="link">Like</a><a href="#" class="link">Read more</a></div>
+    </div>
+    <f7-block-title>Facebook Cards</f7-block-title>
+    <div class="card demo-facebook-card">
+      <div class="card-header no-border">
+        <div class="demo-facebook-avatar"><img src="http://lorempixel.com/68/68/people/1/" width="34" height="34"/></div>
+        <div class="demo-facebook-name">John Doe</div>
+        <div class="demo-facebook-date">Monday at 3:47 PM</div>
+      </div>
+      <div class="card-content"> <img src="http://lorempixel.com/1000/700/nature/8/" width="100%"/></div>
+      <div class="card-footer no-border"><a href="#" class="link">Like</a><a href="#" class="link">Comment</a><a href="#" class="link">Share</a></div>
+    </div>
+    <div class="card demo-facebook-card">
+      <div class="card-header">
+        <div class="demo-facebook-avatar"><img src="http://lorempixel.com/68/68/people/1/" width="34" height="34"/></div>
+        <div class="demo-facebook-name">John Doe</div>
+        <div class="demo-facebook-date">Monday at 2:15 PM</div>
+      </div>
+      <div class="card-content card-content-padding">
+        <p>What a nice photo i took yesterday!</p><img src="http://lorempixel.com/1000/700/nature/8/" width="100%"/>
+        <p class="likes">Likes: 112 &nbsp;&nbsp; Comments: 43</p>
+      </div>
+      <div class="card-footer"><a href="#" class="link">Like</a><a href="#" class="link">Comment</a><a href="#" class="link">Share</a></div>
+    </div>
+    <f7-block-title>Cards With List View</f7-block-title>
+    <div class="card">
+      <div class="card-content">
+        <div class="list links-list">
+          <ul>
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>
+            <li><a href="#">Link 4</a></li>
+            <li><a href="#">Link 5</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">New Releases:</div>
+      <div class="card-content">
+        <div class="list media-list">
+          <ul>
+            <li class="item-content">
+              <div class="item-media"><img src="http://lorempixel.com/88/88/fashion/4" width="44"/></div>
+              <div class="item-inner">
+                <div class="item-title-row">
+                  <div class="item-title">Yellow Submarine</div>
+                </div>
+                <div class="item-subtitle">Beatles</div>
+              </div>
+            </li>
+            <li class="item-content">
+              <div class="item-media"><img src="http://lorempixel.com/88/88/fashion/5" width="44"/></div>
+              <div class="item-inner">
+                <div class="item-title-row">
+                  <div class="item-title">Don't Stop Me Now</div>
+                </div>
+                <div class="item-subtitle">Queen</div>
+              </div>
+            </li>
+            <li class="item-content">
+              <div class="item-media"><img src="http://lorempixel.com/88/88/fashion/6" width="44"/></div>
+              <div class="item-inner">
+                <div class="item-title-row">
+                  <div class="item-title">Billie Jean</div>
+                </div>
+                <div class="item-subtitle">Michael Jackson</div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card-footer"> <span>January 20, 2015</span><span>5 comments</span></div>
+    </div>
+  </div>
+</div>
+</template>
+<script>
+  import { f7Navbar, f7Page, f7BlockTitle } from 'framework7-vue';
+
+  export default {
+    components: {
+      f7Navbar,
+      f7Page,
+      f7BlockTitle,
+    }
+  }
+</script>
