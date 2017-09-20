@@ -1,11 +1,5 @@
 <p align="center">
-<svg width="437px" height="106px" viewBox="0 0 437 106" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="HelveticaNeue-UltraLight, Helvetica Neue" font-size="144" font-weight="200">
-        <text id="NUXT-7" style="mix-blend-mode: hard-light;" fill="#000000">
-            <tspan x="-6.148" y="103">NUXT 7</tspan>
-        </text>
-    </g>
-</svg>
+<img src="https://user-images.githubusercontent.com/5158436/30664687-ce6fb7f6-9e63-11e7-8c66-3c03d1c6be92.png"/ alt="Nuxt 7">
 </p>
 
 <p align="center">
