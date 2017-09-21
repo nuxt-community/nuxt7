@@ -53,5 +53,10 @@
 <script>
   import { f7Navbar, f7Page } from 'framework7-vue';
 
-  export default {}
+  export default {
+    components: {
+      f7Page,
+      f7Navbar
+    }
+  }
 </script>
