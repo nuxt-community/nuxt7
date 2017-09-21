@@ -8,6 +8,14 @@
   dependencies:
     cssnano "^3.10.0"
 
+"@nuxtjs/icon@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/icon/-/icon-1.1.0.tgz#3bd08c75fe31c82121c5d5e8c13ef4704a83b5a2"
+  dependencies:
+    fs-extra "^3.0.1"
+    hash-sum "^1.0.2"
+    jimp "^0.2.28"
+
 "@nuxtjs/icon@latest":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@nuxtjs/icon/-/icon-1.0.1.tgz#650472d958243e72a2664a77345373f20c44dd39"
@@ -16,11 +24,15 @@
     hash-sum "^1.0.2"
     jimp "^0.2.28"
 
-"@nuxtjs/manifest@latest":
+"@nuxtjs/manifest@^1.6.1", "@nuxtjs/manifest@latest":
   version "1.6.1"
   resolved "https://registry.yarnpkg.com/@nuxtjs/manifest/-/manifest-1.6.1.tgz#2c939de8ef5eede65433cecb22250caad37ab6eb"
   dependencies:
     hash-sum "^1.0.2"
+
+"@nuxtjs/meta@^1.5.0":
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/meta/-/meta-1.5.0.tgz#930015fc1a1fe578bbfe1eb715da6be93a133189"
 
 "@nuxtjs/meta@latest":
   version "1.4.0"

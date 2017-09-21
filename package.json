@@ -12,6 +12,9 @@
     "surge": "yarn run dev-generate && surge -d https://nuxt7.surge.sh demo-dist"
   },
   "dependencies": {
+    "@nuxtjs/icon": "^1.1.0",
+    "@nuxtjs/manifest": "^1.6.1",
+    "@nuxtjs/meta": "^1.5.0",
     "@nuxtjs/pwa": "^0.2.1",
     "@pi0/framework7": "^2.0.0-beta.8.1",
     "@pi0/framework7-vue": "^2.0.0-beta.1.2",
