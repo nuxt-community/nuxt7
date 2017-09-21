@@ -5,7 +5,7 @@ module.exports = {
     },
     modules: [
         '@nuxtjs/pwa',
-        '..'
+        '@@/lib',
     ],
     manifest: {
         name: 'Nuxt7',
