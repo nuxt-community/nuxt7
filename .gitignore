@@ -3,7 +3,6 @@ vscode
 .idea
 *.iml
 node_modules
-*.lock*
 .nuxt
 sw.*
 workbox-*
