@@ -9,7 +9,7 @@
     "dev-analyze": "nuxt build -c kitchen-sink/nuxt.config.js --analyze",
     "dev-start": "nuxt start --spa -c kitchen-sink/nuxt.config.js",
     "dev-generate": "nuxt generate -c kitchen-sink/nuxt.config.js",
-    "surge": "surge -d https://nuxt7.surge.sh demo-dist"
+    "surge": "yarn run dev-generate && surge -d https://nuxt7.surge.sh demo-dist"
   },
   "dependencies": {
     "@nuxtjs/pwa": "^0.2.1",
