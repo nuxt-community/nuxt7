@@ -8,7 +8,9 @@ import Framework7 from 'framework7'
 import { Framework7Vue } from 'framework7-vue'
 
 // Import F7 Theme Styles
+<% if (options.css) { %>
 import 'framework7-css'
+<% } %>
 
 // Init F7 Vue Plugin
 Vue.use(Framework7Vue, Framework7)
