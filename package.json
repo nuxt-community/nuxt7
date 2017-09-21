@@ -14,7 +14,7 @@
   "dependencies": {
     "@nuxtjs/pwa": "^0.2.1",
     "@pi0/framework7": "^2.0.0-beta.7.1",
-    "@pi0/framework7-vue": "^2.0.0-beta.1",
+    "@pi0/framework7-vue": "^2.0.0-beta.1.1",
     "framework7-icons": "^0.8.9",
     "nuxt": "^1.0.0-rc11",
     "template7": "^1.3.0"
