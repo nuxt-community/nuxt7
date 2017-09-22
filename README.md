@@ -12,6 +12,9 @@
 <a href="https://npmjs.com/package/nuxt7">
     <img alt="" src="https://img.shields.io/npm/dt/nuxt7.svg?style=flat-square">
 </a>
+<a href="https://travis-ci.org/pi0/nuxt7">
+    <img alt="" src="https://img.shields.io/travis/pi0/nuxt7.svg?style=flat-square">
+</a>
 </p>
 
 <p align="center">
