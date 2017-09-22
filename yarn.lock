@@ -17,8 +17,8 @@
     jimp "^0.2.28"
 
 "@nuxtjs/manifest@^1.6.1", "@nuxtjs/manifest@latest":
-  version "1.6.1"
-  resolved "https://registry.yarnpkg.com/@nuxtjs/manifest/-/manifest-1.6.1.tgz#2c939de8ef5eede65433cecb22250caad37ab6eb"
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/manifest/-/manifest-1.7.0.tgz#cea947a2f3c3422f1add93601085ec27fd0149a6"
   dependencies:
     hash-sum "^1.0.2"
 
