@@ -4,7 +4,6 @@ branches:
     - master
 language: node_js
 node_js:
-  - "7"
   - "8"
 os:
   - linux
@@ -15,5 +14,6 @@ script:
   - yarn dev-build
 deploy:
   provider: surge
+  skip_cleanup: true
   project: ./demo-dist/
   domain: https://nuxt7.surge.sh
