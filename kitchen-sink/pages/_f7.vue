@@ -6,6 +6,6 @@
 
 <script>
 export default {
-    layout: 'f7'
+  layout: 'f7'
 }
 </script>

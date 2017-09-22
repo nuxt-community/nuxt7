@@ -9,9 +9,9 @@
 import { f7Statusbar, f7View } from 'framework7-vue'
 
 export default {
-    components: {
-        f7Statusbar,
-        f7View
-    }
+  components: {
+    f7Statusbar,
+    f7View
+  }
 }
 </script>
