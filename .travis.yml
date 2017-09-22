@@ -13,3 +13,7 @@ install:
 script:
   - yarn lint
   - yarn dev-build
+deploy:
+  provider: surge
+  project: ./demo-dist/
+  domain: https://nuxt7.surge.sh
