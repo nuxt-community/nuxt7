@@ -28,12 +28,6 @@ if (window.navigator.standalone === undefined) {
     window.navigator.standalone = window.location.href.indexOf('standalone=true') > 0
 }
 
-// Detect Standalone mode
-if (window.navigator.standalone && window.location.pathname !== '/') {
-    // Redirect to home on startup (Fixes problems with IOS bookmarking)
-    window.location = '/'
-}
-
 // Register plugin
 export default async function framework7({ app }, inject) {
     // Check to fallback hash mode if origin is not available
