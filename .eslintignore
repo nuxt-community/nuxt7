@@ -1,0 +1,12 @@
+# kitchen-sink/f7 is from framework7-vue and it has standalone lint, so ignore it for now
+kitchen-sink/f7
+templates
+
+# from .gitignore
+vscode
+.idea
+node_modules
+.nuxt
+sw.*
+workbox-*
+demo-dist
