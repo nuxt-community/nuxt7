@@ -23,8 +23,8 @@
     hash-sum "^1.0.2"
 
 "@nuxtjs/meta@^1.5.0", "@nuxtjs/meta@latest":
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/@nuxtjs/meta/-/meta-1.5.0.tgz#930015fc1a1fe578bbfe1eb715da6be93a133189"
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/meta/-/meta-1.5.1.tgz#9c689e6c9b17747aefabdb4b199c509c296850e3"
 
 "@nuxtjs/optimize@latest":
   version "1.1.1"
