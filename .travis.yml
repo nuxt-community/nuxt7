@@ -1,0 +1,15 @@
+branches:
+  only:
+    - dev
+    - master
+language: node_js
+node_js:
+  - "7"
+  - "8"
+os:
+  - linux
+install:
+  - yarn
+script:
+  - yarn lint
+  - yarn dev-build
