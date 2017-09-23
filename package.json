@@ -18,11 +18,10 @@
     "@nuxtjs/manifest": "^1.6.1",
     "@nuxtjs/meta": "^1.5.0",
     "@nuxtjs/pwa": "^0.2.1",
-    "@pi0/framework7": "^2.0.0-beta.8.1",
-    "@pi0/framework7-vue": "^2.0.0-beta.1.2",
+    "@pi0/framework7": "^2.0.0-beta.8.4",
+    "@pi0/framework7-vue": "^2.0.0-beta.1.3",
     "framework7-icons": "^0.8.9",
-    "nuxt": "^1.0.0-rc11",
-    "template7": "^1.3.0"
+    "nuxt": "^1.0.0-rc11"
   },
   "files": [
     "lib",
