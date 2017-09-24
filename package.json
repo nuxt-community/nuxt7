@@ -11,7 +11,13 @@
     "dev-generate": "nuxt generate -c kitchen-sink/nuxt.config.js",
     "lint": "eslint --ext .js,.vue .",
     "test": "npm run lint",
+    "precommit": "lint-staged",
     "surge": "surge -d https://nuxt7.surge.sh demo-dist"
+  },
+  "lint-staged": {
+    "*.{js,vue}": [
+      "yarn lint"
+    ]
   },
   "dependencies": {
     "@nuxtjs/icon": "^1.1.0",
@@ -36,6 +42,8 @@
     "eslint-plugin-node": "^5.1.1",
     "eslint-plugin-promise": "^3.5.0",
     "eslint-plugin-standard": "^3.0.1",
+    "husky": "^0.14.3",
+    "lint-staged": "^4.2.2",
     "surge": "^0.19.0"
   }
 }
