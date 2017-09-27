@@ -2,17 +2,17 @@
   "name": "nuxt7",
   "version": "0.0.7",
   "license": "MIT",
-  "main": "lib/index.js",
+  "main": "lib/module.js",
   "scripts": {
-    "dev": "nuxt dev -c kitchen-sink/nuxt.config.js",
-    "dev-build": "nuxt build -c kitchen-sink/nuxt.config.js",
-    "dev-analyze": "nuxt build -c kitchen-sink/nuxt.config.js --analyze",
-    "dev-start": "nuxt start --spa -c kitchen-sink/nuxt.config.js",
-    "dev-generate": "nuxt generate -c kitchen-sink/nuxt.config.js",
+    "ks": "nuxt dev -c examples/kitchen-sink/nuxt.config.js",
+    "ks-build": "nuxt build -c examples/kitchen-sink/nuxt.config.js",
+    "ks-analyze": "nuxt build -c examples/kitchen-sink/nuxt.config.js --analyze",
+    "ks-start": "nuxt start --spa -c examples/kitchen-sink/nuxt.config.js",
+    "ks-generate": "nuxt generate -c examples/kitchen-sink/nuxt.config.js",
     "lint": "eslint --ext .js,.vue .",
     "test": "npm run lint",
     "precommit": "lint-staged",
-    "surge": "surge -d https://nuxt7.surge.sh demo-dist"
+    "surge": "surge -d https://nuxt7.surge.sh examples/kitchen-sink/dist"
   },
   "lint-staged": {
     "*.{js,vue}": [
@@ -27,12 +27,11 @@
     "@pi0/framework7": "^2.0.0-beta.8.4",
     "@pi0/framework7-vue": "^2.0.0-beta.1.3",
     "framework7-icons": "^0.8.9",
+    "lodash": "^4.17.4",
     "nuxt": "^1.0.0-rc11"
   },
   "files": [
-    "lib",
-    "assets",
-    "templates"
+    "lib"
   ],
   "devDependencies": {
     "eslint": "^4.7.2",

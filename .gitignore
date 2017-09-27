@@ -6,4 +6,4 @@ node_modules
 .nuxt
 sw.*
 workbox-*
-demo-dist
+dist

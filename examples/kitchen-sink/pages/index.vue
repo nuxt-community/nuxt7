@@ -1,3 +1,4 @@
+
 <template>
   <f7-page>
     <f7-navbar title="Framework7">
@@ -89,16 +90,16 @@
   </f7-page>
 </template>
 <script>
-  import { f7Page, f7Navbar, f7NavRight, f7BlockTitle, f7List, f7ListItem } from 'framework7-vue';
+  import { f7Page, f7Navbar, f7NavRight, f7BlockTitle, f7List, f7ListItem } from 'framework7-vue'
 
-  export default {
+export default {
     components: {
       f7Page,
       f7Navbar,
       f7NavRight,
       f7BlockTitle,
       f7List,
-      f7ListItem,
-    },
-  };
+      f7ListItem
+    }
+  }
 </script>

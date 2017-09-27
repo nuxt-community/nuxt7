@@ -31,7 +31,7 @@ jobs:
       - run:
           name: Build
           command: |
-            yarn dev-generate
+            yarn ks-generate
 
       # Deploy
       - deploy:

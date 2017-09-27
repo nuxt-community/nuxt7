@@ -1,22 +1,23 @@
+const { join } = require('path')
 module.exports = {
   srcDir: __dirname,
   build: {
     extractCSS: true
   },
   modules: [
-    '@@/lib'
+    '@@'
   ],
+  generate: {
+    dir: join(__dirname, 'dist')
+  },
   manifest: {
     name: 'Nuxt7',
     description: 'Nuxt7 PWA Demo',
     theme_color: '#2196f3'
   },
-  generate: {
-    dir: 'demo-dist',
-    routes: () => {
-      return [
-        '/'
-      ]
-    }
+  framework7: {
+    tabs: [
+      'tabs-routable'
+    ]
   }
 }

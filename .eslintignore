@@ -1,6 +1,9 @@
-# kitchen-sink/f7 is from framework7-vue and it has standalone lint, so ignore it for now
-kitchen-sink/f7
-templates
+# kitchen-sink is from framework7-vue and it has standalone lint, so ignore it for now
+examples/kitchen-sink
+
+# templates and assets cannot be linted
+lib/templates
+lib/assets
 
 # from .gitignore
 vscode
@@ -9,4 +12,4 @@ node_modules
 .nuxt
 sw.*
 workbox-*
-demo-dist
+dist

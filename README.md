@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://github.com/pi0/nuxt7/raw/master/resources/nuxt7.png" alt="Nuxt7">
+    <img src="https://github.com/pi0/nuxt7/raw/master/.assets/nuxt7.png" alt="Nuxt7">
 </p>
 
 <p align="center">
@@ -17,7 +17,6 @@
 </a>
 </p>
 
-
 <p align="center">
 Full Featured iOS & Android <strong>PWA</strong> Apps with <a href="https://nuxtjs.org">Nuxt.js</a> and <a href="https://framework7.io">Framework7</a>
 </p>
@@ -29,15 +28,9 @@ Full Featured iOS & Android <strong>PWA</strong> Apps with <a href="https://nuxt
 - The only working v2 solution (As both framework7@2 and framework7-vue@2 are still WIP)
 - Having nuxt webpack bundler out of the box so builds are much more efficient
 - Having vuex store and file based store modules out of the box
-- `@nuxtjs/pwa` working out of the box!
-- `@nuxtjs/axios` and `@nuxtjs/proxy` will give easy data fetching mechanism
+- PWA out of the box!
 - Production and generated SPA builds
-
-**Ideas**
-
 - Page based router for Framework7
-- Drop-in into exciting nuxt projects
-- Adding SSR support for F7
 
 ## Demo
 
