@@ -16,8 +16,14 @@ module.exports = {
     theme_color: '#2196f3'
   },
   framework7: {
-    tabs: [
-      'tabs-routable'
-    ]
+    routes: {
+      'tabs-routable': {
+        tabs: [
+          { path: "/", id: "tab1" },
+          { path: "/tab2/", id: "tab2" },
+          { path: "/tab3/", id: "tab3" },
+        ]
+      }
+    }
   }
 }
