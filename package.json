@@ -12,7 +12,8 @@
     "lint": "eslint --ext .js,.vue .",
     "test": "npm run lint",
     "precommit": "lint-staged",
-    "surge": "surge -d https://nuxt7.surge.sh examples/kitchen-sink/dist"
+    "surge": "surge -d https://nuxt7.surge.sh examples/kitchen-sink/dist",
+    "release": "standard-version && git push --follow-tags && npm publish"
   },
   "lint-staged": {
     "*.{js,vue}": [
@@ -43,6 +44,7 @@
     "eslint-plugin-standard": "^3.0.1",
     "husky": "^0.14.3",
     "lint-staged": "^4.2.2",
+    "standard-version": "^4.2.0",
     "surge": "^0.19.0"
   }
 }
