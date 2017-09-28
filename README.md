@@ -23,16 +23,17 @@
 <p align="center">
 Full Featured iOS & Android <strong>PWA</strong> Apps with <a href="https://nuxtjs.org">Nuxt.js</a> and <a href="https://framework7.io">Framework7</a>
 <br>
-<a href="./CHANGELOG.md">📖 Release Notes</a>
 </p>
+
+**⚠️ This project is still in early beta, so please don't use it for production**
+
+<a href="./CHANGELOG.md">📖 Release Notes</a>
 
 ## Demo
 
 👉 https://nuxt7.cf
 
 🔦 Lighthouse tests: [3G Fast](https://www.webpagetest.org/result/170928_7R_a32e57c6f08034355e66c2765e2897cb) - [3G EM](https://www.webpagetest.org/result/170928_DE_09fe387555ec2d82a7a52bd728a8af37/)
-
-**⚠️ This project is still in early beta, so please don't use it for production**
 
 ## Features
 
