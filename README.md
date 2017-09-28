@@ -15,15 +15,20 @@
 <a href="https://circleci.com/gh/pi0/nuxt7">
     <img alt="" src="https://img.shields.io/circleci/project/github/pi0/nuxt7/master.svg?style=flat-square">
 </a>
+<a href="https://standardjs.com">
+    <img alt="" src="https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square">
+</a>
 </p>
 
 <p align="center">
 Full Featured iOS & Android <strong>PWA</strong> Apps with <a href="https://nuxtjs.org">Nuxt.js</a> and <a href="https://framework7.io">Framework7</a>
 </p>
 
+[📖 Release Notes](./CHANGELOG.md)
+
 **⚠️ This project is still in early beta, so please don't use it for production**
 
-## Benefits of using Nuxt7
+## Features
 
 - The only working v2 solution (As both framework7@2 and framework7-vue@2 are still WIP)
 - Having nuxt webpack bundler out of the box so builds are much more efficient
@@ -34,7 +39,7 @@ Full Featured iOS & Android <strong>PWA</strong> Apps with <a href="https://nuxt
 
 ## Demo
 
-👉 https://nuxt7.surge.sh
+👉 https://nuxt7.cf
 
 ## 🍳 Development
 
