@@ -8,12 +8,10 @@ export default {
     f7Statusbar
   },
   render (h) {
-    return h('div', {
-      class: "framework7-root"
-    }, [
-        h('f7-statusbar'),
-        h('nuxt')
-      ])
+    return h('div', [
+      h('f7-statusbar'),
+      h('nuxt')
+    ])
   },
 }
 </script>
