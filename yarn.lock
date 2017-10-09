@@ -2,49 +2,36 @@
 # yarn lockfile v1
 
 
-"@nuxtjs/cssnano@latest":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@nuxtjs/cssnano/-/cssnano-1.0.1.tgz#f84019b903ca291cfae8636fb427acb0d9467c83"
-  dependencies:
-    cssnano "^3.10.0"
-
-"@nuxtjs/icon@^1.1.0", "@nuxtjs/icon@latest":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@nuxtjs/icon/-/icon-1.1.0.tgz#3bd08c75fe31c82121c5d5e8c13ef4704a83b5a2"
+"@nuxtjs/icon@^1.1.2":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/icon/-/icon-1.1.2.tgz#a70d05515f2ce7808db8ccf2e6dc0432523abe3f"
   dependencies:
     fs-extra "^3.0.1"
     hash-sum "^1.0.2"
     jimp "^0.2.28"
 
-"@nuxtjs/manifest@^1.6.1", "@nuxtjs/manifest@latest":
-  version "1.7.0"
-  resolved "https://registry.yarnpkg.com/@nuxtjs/manifest/-/manifest-1.7.0.tgz#cea947a2f3c3422f1add93601085ec27fd0149a6"
+"@nuxtjs/manifest@^1.7.2":
+  version "1.7.2"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/manifest/-/manifest-1.7.2.tgz#e78e3133af61bed0578bbb31f87fd1350c54bc0a"
   dependencies:
     hash-sum "^1.0.2"
 
-"@nuxtjs/meta@^1.5.0", "@nuxtjs/meta@latest":
-  version "1.5.1"
-  resolved "https://registry.yarnpkg.com/@nuxtjs/meta/-/meta-1.5.1.tgz#9c689e6c9b17747aefabdb4b199c509c296850e3"
+"@nuxtjs/meta@^1.5.3":
+  version "1.5.3"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/meta/-/meta-1.5.3.tgz#9aa892d49de718ebf3f53198cb3b23b79ad0454a"
 
-"@nuxtjs/optimize@latest":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@nuxtjs/optimize/-/optimize-1.1.1.tgz#70188c99407aa3be717ec44108ce3a4fc92aff34"
+"@nuxtjs/pwa@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/pwa/-/pwa-1.0.2.tgz#220bc3f33a2a19637fb66696d3842fc326390b29"
   dependencies:
-    "@nuxtjs/cssnano" latest
+    "@nuxtjs/icon" "^1.1.2"
+    "@nuxtjs/manifest" "^1.7.2"
+    "@nuxtjs/meta" "^1.5.3"
+    "@nuxtjs/workbox" "^1.2.2"
 
-"@nuxtjs/pwa@^0.2.1":
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/@nuxtjs/pwa/-/pwa-0.2.1.tgz#fed43591b281082449ce59e6707900df38000a4c"
-  dependencies:
-    "@nuxtjs/icon" latest
-    "@nuxtjs/manifest" latest
-    "@nuxtjs/meta" latest
-    "@nuxtjs/optimize" latest
-    "@nuxtjs/workbox" latest
-
-"@nuxtjs/workbox@latest":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@nuxtjs/workbox/-/workbox-1.2.0.tgz#3db3a79b2e6e17c8659c45b81f4b0f366f82e9b4"
+"@nuxtjs/workbox@^1.2.2":
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/workbox/-/workbox-1.2.2.tgz#69e4467d4d8bfb3719ff56b24c1ee901b793efc7"
   dependencies:
     workbox-build "^1.3.0"
 
@@ -56,15 +43,15 @@
     mustache "^2.3.0"
     stack-trace "0.0.10"
 
-"@pi0/framework7-vue@^2.0.0-beta.1.3":
-  version "2.0.0-beta.1.3"
-  resolved "https://registry.yarnpkg.com/@pi0/framework7-vue/-/framework7-vue-2.0.0-beta.1.3.tgz#8e15568ac6e54377d5c0eba5df5498a666c33dbe"
+"@pi0/framework7-vue@^2.0.0-beta.1.4":
+  version "2.0.0-beta.1.4"
+  resolved "https://registry.yarnpkg.com/@pi0/framework7-vue/-/framework7-vue-2.0.0-beta.1.4.tgz#d7ddae5f9bf503dc54aee561da686a4f69b32e09"
 
-"@pi0/framework7@^2.0.0-beta.8.4":
-  version "2.0.0-beta.8.4"
-  resolved "https://registry.yarnpkg.com/@pi0/framework7/-/framework7-2.0.0-beta.8.4.tgz#4737823105255c618447c3be345b0b7aa7de02cc"
+"@pi0/framework7@^2.0.0-beta.9":
+  version "2.0.0-beta.9"
+  resolved "https://registry.yarnpkg.com/@pi0/framework7/-/framework7-2.0.0-beta.9.tgz#1f8d32966a7108fd1c756873e4fe0c03714a0d1c"
   dependencies:
-    dom7 "^2.0.0"
+    dom7 "^2.0.1"
     template7 "^1.3.0"
 
 JSONStream@^1.0.4:
@@ -1783,7 +1770,7 @@ cssesc@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/cssesc/-/cssesc-0.1.0.tgz#c814903e45623371a0477b40109aaafbeeaddbb4"
 
-"cssnano@>=2.6.1 <4", cssnano@^3.10.0:
+"cssnano@>=2.6.1 <4":
   version "3.10.0"
   resolved "https://registry.yarnpkg.com/cssnano/-/cssnano-3.10.0.tgz#4f38f6cea2b9b17fa01490f23f1dc68ea65c1c38"
   dependencies:
@@ -2019,9 +2006,9 @@ dom-walk@^0.1.0:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/dom-walk/-/dom-walk-0.1.1.tgz#672226dc74c8f799ad35307df936aba11acd6018"
 
-dom7@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/dom7/-/dom7-2.0.0.tgz#67ad454f9a7d2cdb53780fa601506dfb7933be81"
+dom7@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/dom7/-/dom7-2.0.1.tgz#a8a2c802cf17c20b051d9414143061472201a233"
 
 domain-browser@^1.1.1:
   version "1.1.7"
@@ -2279,9 +2266,9 @@ eslint-plugin-import@^2.7.0:
     minimatch "^3.0.3"
     read-pkg-up "^2.0.0"
 
-eslint-plugin-node@^5.1.1:
-  version "5.1.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-node/-/eslint-plugin-node-5.1.1.tgz#a7ed956e780c22aef6afd1116005acd82f26eac6"
+eslint-plugin-node@^5.2.0:
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-node/-/eslint-plugin-node-5.2.0.tgz#e1efca04a385516cff3f2f04027ce8c5ae6db749"
   dependencies:
     ignore "^3.3.3"
     minimatch "^3.0.4"
@@ -2303,9 +2290,9 @@ eslint-scope@^3.7.1:
     esrecurse "^4.1.0"
     estraverse "^4.1.1"
 
-eslint@^4.7.2:
-  version "4.7.2"
-  resolved "https://registry.yarnpkg.com/eslint/-/eslint-4.7.2.tgz#ff6f5f5193848a27ee9b627be3e73fb9cb5e662e"
+eslint@^4.8.0:
+  version "4.8.0"
+  resolved "https://registry.yarnpkg.com/eslint/-/eslint-4.8.0.tgz#229ef0e354e0e61d837c7a80fdfba825e199815e"
   dependencies:
     ajv "^5.2.0"
     babel-code-frame "^6.22.0"
@@ -3654,9 +3641,9 @@ levn@^0.3.0, levn@~0.3.0:
     prelude-ls "~1.1.2"
     type-check "~0.3.2"
 
-lint-staged@^4.2.2:
-  version "4.2.2"
-  resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-4.2.2.tgz#a308ceb3f1031b78c832fbe4570744b3c7fd5a4e"
+lint-staged@^4.2.3:
+  version "4.2.3"
+  resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-4.2.3.tgz#5a1f12256af06110b96225f109dbf215009a37a9"
   dependencies:
     app-root-path "^2.0.0"
     chalk "^2.1.0"
