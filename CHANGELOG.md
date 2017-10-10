@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.6.1"></a>
+## [0.6.1](https://github.com/pi0/nuxt7/compare/v0.6.0...v0.6.1) (2017-10-10)
+
+
+### Bug Fixes
+
+* import non esm build of framrwork7 ([a6435f5](https://github.com/pi0/nuxt7/commit/a6435f5))
+* **examples:** tabs-routable ([84e8503](https://github.com/pi0/nuxt7/commit/84e8503))
+* **module:** pushStateRoot for history mode ([377a30e](https://github.com/pi0/nuxt7/commit/377a30e))
+* **module:** use esm.bundle file for framework7 ([46e6737](https://github.com/pi0/nuxt7/commit/46e6737))
+
+
+
 <a name="0.6.0"></a>
 # [0.6.0](https://github.com/pi0/nuxt7/compare/v0.4.0...v0.6.0) (2017-10-09)
 
