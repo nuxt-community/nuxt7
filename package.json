@@ -23,7 +23,7 @@
   "dependencies": {
     "@nuxtjs/pwa": "^1.0.2",
     "@pi0/framework7": "^2.0.0-beta.9",
-    "@pi0/framework7-vue": "^2.0.0-beta.1.4",
+    "@pi0/framework7-vue": "^2.0.0-beta.1.5",
     "framework7-icons": "^0.8.9",
     "lodash": "^4.17.4",
     "nuxt": "^1.0.0-rc11"
