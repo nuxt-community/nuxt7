@@ -29,20 +29,21 @@ Full Featured iOS & Android <strong>PWA</strong> Apps with <a href="https://nuxt
 
 <a href="./CHANGELOG.md">📖 Release Notes</a>
 
+## Features
+
+- Fully compatible with framework7 2.x
+- Development mode with hot reloading
+- Optimized production builds suitable for 100% static hosting
+- Fully PWA compatible out of the box
+- Page based router for Framework7
+- Use vuex store in your apps
+- Familiar nuxt.js development experience with a super easy learning curve
+
 ## Demo
 
 👉 https://nuxt7.cf
 
 🔦 Lighthouse tests: [3G Fast](https://www.webpagetest.org/result/170928_7R_a32e57c6f08034355e66c2765e2897cb) - [3G EM](https://www.webpagetest.org/result/170928_DE_09fe387555ec2d82a7a52bd728a8af37/)
-
-## Features
-
-- The only working v2 solution (As both framework7@2 and framework7-vue@2 are still WIP)
-- Having nuxt webpack bundler out of the box so builds are much more efficient
-- Having vuex store and file based store modules out of the box
-- PWA out of the box!
-- Production and generated SPA builds
-- Page based router for Framework7
 
 
 ## 🍳 Development
