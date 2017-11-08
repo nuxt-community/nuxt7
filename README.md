@@ -1,10 +1,10 @@
 <p align="center">
-    <img src="https://github.com/pi0/nuxt7/raw/master/.assets/nuxt7.png" alt="Nuxt7">
+    <img src="https://github.com/nuxt-community/nuxt7/raw/master/.assets/nuxt7.png" alt="Nuxt7">
 </p>
 
 <p align="center">
-<a href="https://david-dm.org/pi0/nuxt7">
-    <img alt="" src="https://david-dm.org/pi0/nuxt7/status.svg?style=flat-square">
+<a href="https://david-dm.org/nuxt-community/nuxt7">
+    <img alt="" src="https://david-dm.org/nuxt-community/nuxt7/status.svg?style=flat-square">
 </a>
 <a href="https://npmjs.com/package/nuxt7">
     <img alt="" src="https://img.shields.io/npm/v/nuxt7/latest.svg?style=flat-square">
@@ -12,8 +12,8 @@
 <a href="https://npmjs.com/package/nuxt7">
     <img alt="" src="https://img.shields.io/npm/dt/nuxt7.svg?style=flat-square">
 </a>
-<a href="https://circleci.com/gh/pi0/nuxt7">
-    <img alt="" src="https://img.shields.io/circleci/project/github/pi0/nuxt7/master.svg?style=flat-square">
+<a href="https://circleci.com/gh/nuxt-community/nuxt7">
+    <img alt="" src="https://img.shields.io/circleci/project/github/nuxt-community/nuxt7/master.svg?style=flat-square">
 </a>
 <a href="https://standardjs.com">
     <img alt="" src="https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square">
