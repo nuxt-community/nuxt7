@@ -8,8 +8,7 @@ module.exports = {
   // https://github.com/nuxt-community/pwa-module
   manifest: {
     name: '<%= name %>',
-    description: '<%= description %>',
-    theme_color: '#2196f3'
+    description: '<%= description %>'
   },
 
   // Framework7 Config

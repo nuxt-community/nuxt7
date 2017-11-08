@@ -1,0 +1,35 @@
+@import (reference) '~framework7/src/less/mixins.less';
+
+@include-ios-theme: <%= options.build.themes.indexOf('ios') >= 0 %>;
+@include-md-theme: <%= options.build.themes.indexOf('md') >= 0 %>;
+
+@themeColorIos: <%= options.build.ios.themeColor %>;
+@themeColorMd: <%= options.build.md.themeColor %>;
+
+@colorsIos: <%= Object.keys(options.build.ios.colors).map(colorName => `${colorName} ${options.build.ios.colors[colorName]}`).join(', ') %>;
+@colorsMd: <%= Object.keys(options.build.ios.colors).map(colorName => `${colorName} ${options.build.ios.colors[colorName]}`).join(', ')%>;
+
+@rtl: <%= options.build.rtl || false %>;
+
+// Core
+@import url('~framework7/src/components/core/core.less');
+@import url('~framework7/src/components/statusbar/statusbar.less');
+@import url('~framework7/src/components/view/view.less');
+@import url('~framework7/src/components/page/page.less');
+@import url('~framework7/src/components/link/link.less');
+@import url('~framework7/src/components/navbar/navbar.less');
+@import url('~framework7/src/components/toolbar/toolbar.less');
+@import url('~framework7/src/components/subnavbar/subnavbar.less');
+@import url('~framework7/src/components/block/block.less');
+@import url('~framework7/src/components/list/list.less');
+@import url('~framework7/src/components/badge/badge.less');
+@import url('~framework7/src/components/button/button.less');
+@import url('~framework7/src/components/touch-ripple/touch-ripple.less');
+@import url('~framework7/src/components/icon/icon.less');
+@import url('~framework7/src/components/modal/modal.less');
+
+// Components
+<%= options.build.components
+    .filter(component => component !== 'form')
+    .map(component => `@import url('~framework7/src/components/${component}/${component}.less');`).join('\n')
+%>

@@ -27,6 +27,8 @@
     "framework7": "^2.0.0-beta.16",
     "framework7-icons": "^0.8.9",
     "framework7-vue": "^2.0.0-beta.5",
+    "less": "^2.7.3",
+    "less-loader": "^4.0.5",
     "lodash": "^4.17.4"
   },
   "files": [

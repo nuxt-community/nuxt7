@@ -12,10 +12,10 @@ module.exports = {
   },
   manifest: {
     name: 'Nuxt7',
-    description: 'Nuxt7 PWA Demo',
-    theme_color: '#2196f3'
+    description: 'Nuxt7 PWA Demo'
   },
   framework7: {
+    themeColor: '#2196f3',
     mode: 'history',
     routes: {
       'tabs-routable': {
