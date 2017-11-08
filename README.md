@@ -45,7 +45,7 @@ to rapidly create efficient and feature-reach [PWA](https://developers.google.co
 Use the command below to create a new app using starter template:
 
 ```bash
-npx sao nuxt-community/nuxt7 nuxt7-app
+> npx sao nuxt-community/nuxt7 nuxt7-app
 ```
 
 <h2 align="center">👉 Demo</h2>
@@ -56,7 +56,7 @@ Latest version is always published [Here.](https://nuxt7.cf) (Thanks to Surge an
 
 <h2 align="center">🔧 Module options</h2>
 
-Add options as `framework7` key inside `nuxt.config.js`.
+Add options in `framework7` section inside `nuxt.config.js` file.
 
 Option          | Type         | Default   |  Description
 ----------------|--------------|-----------|--------------------------------------------------------------
@@ -66,7 +66,7 @@ Option          | Type         | Default   |  Description
 `mdIcons`       | Boolean      | `true`    | Include MD Icons
 `routes`        | Object       | `true`    | Route overrides (see below)
 `mode`          | String       | `hash`    | Router mode. Can be `hash` or `history`
-`view`          | Object       | <!-- -->  | Options passed to root view of framework7
+`view`          | Object       | `{ ... }` | Options passed to root view of framework7
 
 ### routes override
 Routes are auto generated using pages directory structure.
@@ -91,7 +91,13 @@ framework7: {
 <h2 align="center">🍳 Development</h2>
 
 ```bash
-> yarn dev
+# Fork and clone git@github.com:nuxt-community/nuxt7.git
+
+# Install dependencies
+yarn install
+
+# Start development server (kitchen sink)
+yarn dev
 ```
 
 <h2 align="center">License</h2>
