@@ -1163,7 +1163,7 @@ caniuse-db@^1.0.30000529, caniuse-db@^1.0.30000634, caniuse-db@^1.0.30000639:
   version "1.0.30000760"
   resolved "https://registry.yarnpkg.com/caniuse-db/-/caniuse-db-1.0.30000760.tgz#3ea29473eb78a6ccb09f2eb73ac9e1debfec528d"
 
-caniuse-lite@^1.0.0, caniuse-lite@^1.0.30000748, caniuse-lite@^1.0.30000758:
+caniuse-lite@^1.0.0, caniuse-lite@^1.0.30000748, caniuse-lite@^1.0.30000758, caniuse-lite@^1.0.30000760:
   version "1.0.30000760"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000760.tgz#ec720395742f1c7ec8947fd6dd2604e77a8f98ff"
 
@@ -2681,13 +2681,13 @@ framework7-icons@^0.8.9:
   version "0.8.9"
   resolved "https://registry.yarnpkg.com/framework7-icons/-/framework7-icons-0.8.9.tgz#af94a6051be659f3f7b9d873fba6040c8fe72769"
 
-framework7-vue@^2.0.0-beta.4:
-  version "2.0.0-beta.4"
-  resolved "https://registry.yarnpkg.com/framework7-vue/-/framework7-vue-2.0.0-beta.4.tgz#95aea6bf104124d903dee712f75ce7b531d7aa06"
+framework7-vue@^2.0.0-beta.5:
+  version "2.0.0-beta.5"
+  resolved "https://registry.yarnpkg.com/framework7-vue/-/framework7-vue-2.0.0-beta.5.tgz#a00ddcf8511cd1aaf25dce2936caea78b606890a"
 
-framework7@^2.0.0-beta.15:
-  version "2.0.0-beta.15"
-  resolved "https://registry.yarnpkg.com/framework7/-/framework7-2.0.0-beta.15.tgz#eeb752b300d0ddec5dd031e14f8eade03104b863"
+framework7@^2.0.0-beta.16:
+  version "2.0.0-beta.16"
+  resolved "https://registry.yarnpkg.com/framework7/-/framework7-2.0.0-beta.16.tgz#6c92a48fd2eeb3ed426a47ed13e656ad34a196aa"
   dependencies:
     dom7 "^2.0.1"
     template7 "^1.3.1"
