@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.7.0"></a>
+# [0.7.0](https://github.com/pi0/nuxt7/compare/v0.6.1...v0.7.0) (2017-11-08)
+
+
+### Bug Fixes
+
+* **f7-router:** children ~> routes ([1f8fbcf](https://github.com/pi0/nuxt7/commit/1f8fbcf))
+
+
+### Features
+
+* **package:** use official releases for f7 ([09f2d80](https://github.com/pi0/nuxt7/commit/09f2d80))
+* f7-components ([ff53bdd](https://github.com/pi0/nuxt7/commit/ff53bdd))
+
+
+
 <a name="0.6.1"></a>
 ## [0.6.1](https://github.com/pi0/nuxt7/compare/v0.6.0...v0.6.1) (2017-10-10)
 
