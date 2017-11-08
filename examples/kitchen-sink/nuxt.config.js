@@ -26,5 +26,8 @@ module.exports = {
         ]
       }
     }
-  }
+  },
+  css: [
+    'css/app.css'
+  ]
 }
