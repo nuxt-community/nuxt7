@@ -49,7 +49,7 @@ Full Featured iOS & Android <strong>PWA</strong> Apps with <a href="https://nuxt
 ## 🍳 Development
 
 ```bash
-> yarn ks
+> yarn dev
 ```
 
 ## License

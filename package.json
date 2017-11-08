@@ -4,6 +4,7 @@
   "license": "MIT",
   "main": "lib/module.js",
   "scripts": {
+    "dev": "npm run ks",
     "ks": "nuxt dev -c examples/kitchen-sink/nuxt.config.js",
     "ks-build": "nuxt build -c examples/kitchen-sink/nuxt.config.js",
     "ks-analyze": "nuxt build -c examples/kitchen-sink/nuxt.config.js --analyze",
