@@ -43,8 +43,7 @@ Full Featured iOS & Android <strong>PWA</strong> Apps with <a href="https://nuxt
 
 👉 https://nuxt7.cf
 
-🔦 Lighthouse tests: [3G Fast](https://www.webpagetest.org/result/170928_7R_a32e57c6f08034355e66c2765e2897cb) - [3G EM](https://www.webpagetest.org/result/170928_DE_09fe387555ec2d82a7a52bd728a8af37/)
-
+🔦 Lighthouse tests: [Mobile Regular 3G](https://www.webpagetest.org/result/171108_XA_8a8f20e7c71b24cb17e3c269cb5d8a5c)
 
 ## 🍳 Development
 
