@@ -25,12 +25,12 @@ Full Featured iOS & Android <strong>PWA</strong> Apps with <a href="https://nuxt
 <br>
 </p>
 
-<a href="./CHANGELOG.md">📖 Release Notes</a>
-
 Nuxt7 integrates universal nuxt.js applications with [Framework7](https://framework7.io/)[-Vue](https://framework7.io/vue)
 to rapidly create efficient and feature-reach [PWA](https://developers.google.com/web/progressive-web-apps) mobile applications with help of [pwa-module](https://github.com/nuxt-community/pwa-module). Production builds can be statically hosted or running offline.
 
-## ✨ Features
+<a href="./CHANGELOG.md">📖 Release Notes</a>
+
+<h2 align="center">✨ Features</h2>
 
 - Fully compatible with framework7 2.x
 - Development mode with hot reloading
@@ -40,20 +40,21 @@ to rapidly create efficient and feature-reach [PWA](https://developers.google.co
 - Use vuex store in your apps
 - Familiar nuxt.js development experience with a super easy learning curve
 
-## ⚔️ Quick Start
+<h2 align="center">⚔️ Quick Start</h2>
 
-Using starter template for is recommended. Use the command below to create a new app:
+Use the command below to create a new app using starter template:
 
-```cmd
+```bash
 npx sao nuxt-community/nuxt7 nuxt7-app
 ```
 
-## 👉 Demo
-Latest version is always published here: https://nuxt7.cf
+<h2 align="center">👉 Demo</h2>
+
+Latest version is always published [Here.](https://nuxt7.cf) (Thanks to Surge and CloudFlare for hosting)
 
 🔦 Lighthouse tests: [Mobile Regular 3G](https://www.webpagetest.org/result/171108_XA_8a8f20e7c71b24cb17e3c269cb5d8a5c)
 
-## Module options
+<h2 align="center">🔧 Module options</h2>
 
 Add options as `framework7` key inside `nuxt.config.js`.
 
@@ -87,12 +88,12 @@ framework7: {
 }
 ```
 
-## 🍳 Development
+<h2 align="center">🍳 Development</h2>
 
 ```bash
 > yarn dev
 ```
 
-## License
+<h2 align="center">License</h2>
 
 MIT - Nuxt Community - Pooya Parsa
