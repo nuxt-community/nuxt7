@@ -27,6 +27,14 @@ Full Featured iOS & Android <strong>PWA</strong> Apps with <a href="https://nuxt
 
 <a href="./CHANGELOG.md">📖 Release Notes</a>
 
+## ⚔️ Quick Start
+
+Using starter template for using this module is recommended. Use command below to get started:
+
+```cmd
+npx sao nuxt-community/nuxt7 nuxt7-app
+```
+
 ## Features
 
 - Fully compatible with framework7 2.x
