@@ -1,0 +1,23 @@
+# dependencies
+node_modules
+
+# logs
+npm-debug.log
+
+# Nuxt build
+.nuxt
+
+# Nuxt generate
+dist
+
+# IDE Configurations
+vscode
+.idea
+*.iml
+
+# OSX
+.DS_Store
+
+# Service worker generated files
+sw.*
+workbox-*

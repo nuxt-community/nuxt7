@@ -1,6 +1,6 @@
 <template>
   <f7-page>
-    <f7-navbar title="Framework7">
+    <f7-navbar title="Nuxt7">
       <f7-nav-right>
         <a class="link icon-only searchbar-enable" data-searchbar=".searchbar-components">
           <i class="icon f7-icons ios-only">search_strong</i>

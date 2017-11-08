@@ -29,7 +29,9 @@
     "lodash": "^4.17.4"
   },
   "files": [
-    "lib"
+    "lib",
+    "template",
+    "sao.js"
   ],
   "devDependencies": {
     "eslint": "^4.10.0",
