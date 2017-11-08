@@ -25,8 +25,6 @@ Full Featured iOS & Android <strong>PWA</strong> Apps with <a href="https://nuxt
 <br>
 </p>
 
-**⚠️ This project is still in early beta, so please don't use it for production**
-
 <a href="./CHANGELOG.md">📖 Release Notes</a>
 
 ## Features
@@ -44,6 +42,40 @@ Full Featured iOS & Android <strong>PWA</strong> Apps with <a href="https://nuxt
 👉 https://nuxt7.cf
 
 🔦 Lighthouse tests: [Mobile Regular 3G](https://www.webpagetest.org/result/171108_XA_8a8f20e7c71b24cb17e3c269cb5d8a5c)
+
+## Module options
+
+Add options as `framework7` key inside `nuxt.config.js`.
+
+Option          | Type         | Default   |  Description
+----------------|--------------|-----------|--------------------------------------------------------------
+`css`           | Boolean      | `true`    | Include Framework7 css (disable to provide a custom build)
+`rtl`           | Boolean      | `false`   | Enable RTL layout
+`f7Icons`       | Boolean      | `true`    | Include Framework7 Icons (IOS)
+`mdIcons`       | Boolean      | `true`    | Include MD Icons
+`routes`        | Object       | `true`    | Route overrides (see below)
+`mode`          | String       | `hash`    | Router mode. Can be `hash` or `history`
+`view`          | Object       | <!-- -->  | Options passed to root view of framework7
+
+### routes override
+Routes are auto generated using pages directory structure.
+However if you need to make more customization (Like adding routable tabs) this option may be used.
+
+Example: (**nuxt.config.js**)
+
+```js
+framework7: {
+    routes: {
+      'tabs-routable': {
+        tabs: [
+          { path: "/", id: "tab1" },
+          { path: "/tab2/", id: "tab2" },
+          { path: "/tab3/", id: "tab3" },
+        ]
+      }
+    }
+}
+```
 
 ## 🍳 Development
 
