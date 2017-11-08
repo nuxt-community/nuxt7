@@ -1,19 +1,17 @@
 <template>
-  <div class="page">
+  <f7-page>
     <f7-navbar title="Popup" back-link="Back"></f7-navbar>
-    <div class="page-content">
-      <div class="block">
-        <p>Popup is a modal window with any HTML content that pops up over App's main content. Popup as all other overlays is part of so called "Temporary Views".</p>
-        <p>
-          <a href="#" class="button button-raised popup-open" data-popup=".demo-popup">Open Popup</a>
-        </p>
-        <p>
-          <a href="#" class="button button-raised" @click="createPopup">Create Dynamic Popup</a>
-        </p>
-      </div>
+    <div class="block">
+      <p>Popup is a modal window with any HTML content that pops up over App's main content. Popup as all other overlays is part of so called "Temporary Views".</p>
+      <p>
+        <a href="#" class="button button-raised popup-open" data-popup=".demo-popup">Open Popup</a>
+      </p>
+      <p>
+        <a href="#" class="button button-raised" @click="createPopup">Create Dynamic Popup</a>
+      </p>
     </div>
     <div class="popup demo-popup">
-      <div class="page">
+      <f7-page>
         <div class="navbar">
           <div class="navbar-inner">
             <div class="title">Popup Title</div>
@@ -27,9 +25,9 @@
             <p>Duis ut mauris sollicitudin, venenatis nisi sed, luctus ligula. Phasellus blandit nisl ut lorem semper pharetra. Nullam tortor nibh, suscipit in consequat vel, feugiat sed quam. Nam risus libero, auctor vel tristique ac, malesuada ut ante. Sed molestie, est in eleifend sagittis, leo tortor ullamcorper erat, at vulputate eros sapien nec libero. Mauris dapibus laoreet nibh quis bibendum. Fusce dolor sem, suscipit in iaculis id, pharetra at urna. Pellentesque tempor congue massa quis faucibus. Vestibulum nunc eros, convallis blandit dui sit amet, gravida adipiscing libero.</p>
           </div>
         </div>
-      </div>
+      </f7-page>
     </div>
-  </div>
+  </f7-page>
 </template>
 <script>
   import { f7Navbar, f7Page } from 'framework7-vue';
@@ -43,7 +41,7 @@
           self.popup = self.$f7.popup.create({
             content: '\
               <div class="popup">\
-                <div class="page">\
+                <f7-page>\
                   <div class="navbar">\
                     <div class="navbar-inner">\
                       <div class="title">Dynamic Popup</div>\

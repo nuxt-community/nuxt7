@@ -1,20 +1,18 @@
 <template>
-  <div class="page">
+  <f7-page>
     <f7-navbar title="Color Themes" back-link="Back"></f7-navbar>
-    <div class="page-content">
-      <f7-block-title>Choose Color Theme</f7-block-title>
-      <div class="block">
-        <p>Framework7 comes with {{colorsAmount}} color themes set.</p>
-        <div class="row">
-          <div class="col-33" v-for="color in colors" :key="color">
-            <button class="button button-fill button-round button-raised" :class="`color-${color}`" @click="setColorTheme(color)">
-              {{ color }}
-            </button>
-          </div>
+    <f7-block-title>Choose Color Theme</f7-block-title>
+    <div class="block">
+      <p>Framework7 comes with {{colorsAmount}} color themes set.</p>
+      <div class="row">
+        <div class="col-33" v-for="color in colors" :key="color">
+          <button class="button button-fill button-round button-raised" :class="`color-${color}`" @click="setColorTheme(color)">
+            {{ color }}
+          </button>
         </div>
       </div>
     </div>
-  </div>
+  </f7-page>
 </template>
 <style scoped>
   .button {

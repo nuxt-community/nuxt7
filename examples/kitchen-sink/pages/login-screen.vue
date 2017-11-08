@@ -1,23 +1,21 @@
 <template>
-  <div class="page">
+  <f7-page>
     <f7-navbar title="Login Screen" back-link="Back"></f7-navbar>
-    <div class="page-content">
-      <div class="block">
-        <p>Framework7 comes with ready to use Login Screen layout. It could be used inside of page or inside of popup (Embedded) or as a standalone overlay:</p>
-      </div>
-      <div class="list links-list">
-        <ul>
-          <li>
-            <a href="/login-screen-page/">As Separate Page</a>
-          </li>
-        </ul>
-      </div>
-      <div class="block">
-        <a href="#" class="button button-raised button-big button-fill login-screen-open" data-login-screen=".login-screen">As Overlay</a>
-      </div>
+    <div class="block">
+      <p>Framework7 comes with ready to use Login Screen layout. It could be used inside of page or inside of popup (Embedded) or as a standalone overlay:</p>
+    </div>
+    <div class="list links-list">
+      <ul>
+        <li>
+          <a href="/login-screen-page/">As Separate Page</a>
+        </li>
+      </ul>
+    </div>
+    <div class="block">
+      <a href="#" class="button button-raised button-big button-fill login-screen-open" data-login-screen=".login-screen">As Overlay</a>
     </div>
     <div class="login-screen">
-      <div class="page">
+      <f7-page>
         <div class="page-content login-screen-content">
           <div class="login-screen-title">Framework7</div>
           <form>
@@ -51,9 +49,9 @@
             </div>
           </form>
         </div>
-      </div>
+      </f7-page>
     </div>
-  </div>
+  </f7-page>
 </template>
 <script>
   import { f7Navbar, f7Page } from 'framework7-vue';

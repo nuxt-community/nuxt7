@@ -1,5 +1,5 @@
 <template>
-  <div class="page">
+  <f7-page>
     <div class="navbar">
       <div class="navbar-inner sliding">
         <div class="left">
@@ -17,30 +17,28 @@
         <a class="link">Right Link</a>
       </div>
     </div>
-    <div class="page-content">
-      <div class="list links-list">
-        <ul>
-          <li>
-            <a href="./tabbar/">Tabbar</a>
-          </li>
-          <li>
-            <a href="./tabbar-labels/">Tabbar With Labels</a>
-          </li>
-          <li>
-            <a href="./tabbar-scrollable/">Tabbar Scrollable</a>
-          </li>
-          <li>
-            <a href="./toolbar-hide-scroll/">Hide Toolbar On Scroll</a>
-          </li>
-        </ul>
-      </div>
-      <div class="block-title md-only">Toolbar Position</div>
-      <div class="block md-only">
-        <p>Material (MD) theme toolbar supports both top and bottom positions. Click the following button to change its position.</p>
-        <p><a class="button button-raised" @click="toggleToolbarPosition">Toggle Toolbar Position</a></p>
-      </div>
+    <div class="list links-list">
+      <ul>
+        <li>
+          <a href="./tabbar/">Tabbar</a>
+        </li>
+        <li>
+          <a href="./tabbar-labels/">Tabbar With Labels</a>
+        </li>
+        <li>
+          <a href="./tabbar-scrollable/">Tabbar Scrollable</a>
+        </li>
+        <li>
+          <a href="./toolbar-hide-scroll/">Hide Toolbar On Scroll</a>
+        </li>
+      </ul>
     </div>
-  </div>
+    <div class="block-title md-only">Toolbar Position</div>
+    <div class="block md-only">
+      <p>Material (MD) theme toolbar supports both top and bottom positions. Click the following button to change its position.</p>
+      <p><a class="button button-raised" @click="toggleToolbarPosition">Toggle Toolbar Position</a></p>
+    </div>
+  </f7-page>
 </template>
 <script>
   import { f7Navbar, f7Page } from 'framework7-vue';
