@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Framework7 Icons';
     font-style: normal;
-    font-display: optional;
+    font-display: block;
     font-weight: 400;
     src: url(./fonts/Framework7Icons-Regular.eot);
     src: local('Framework7 Icons'),
