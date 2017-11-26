@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.8.5"></a>
+## [0.8.5](https://github.com/pi0/nuxt7/compare/v0.8.4...v0.8.5) (2017-11-26)
+
+
+### Bug Fixes
+
+* use font-display: block ([8fb54c7](https://github.com/pi0/nuxt7/commit/8fb54c7))
+
+
+
 <a name="0.8.4"></a>
 ## [0.8.4](https://github.com/pi0/nuxt7/compare/v0.8.3...v0.8.4) (2017-11-25)
 
