@@ -1,7 +1,8 @@
-@import (reference) '~framework7/src/less/mixins.less';
+@import (reference) '~framework7/dist/less/mixins.less';
 
-@include-ios-theme: <%= options.build.themes.indexOf('ios') >= 0 %>;
-@include-md-theme: <%= options.build.themes.indexOf('md') >= 0 %>;
+@includeIosTheme: <%= options.build.themes.indexOf('ios') >= 0 %>;
+@includeMdTheme: <%= options.build.themes.indexOf('md') >= 0 %>;
+@includeDarkTheme: <%= options.build.darkTheme %>;
 
 @themeColorIos: <%= options.build.ios.themeColor %>;
 @themeColorMd: <%= options.build.md.themeColor %>;
@@ -12,24 +13,24 @@
 @rtl: <%= options.build.rtl || false %>;
 
 // Core
-@import url('~framework7/src/components/core/core.less');
-@import url('~framework7/src/components/statusbar/statusbar.less');
-@import url('~framework7/src/components/view/view.less');
-@import url('~framework7/src/components/page/page.less');
-@import url('~framework7/src/components/link/link.less');
-@import url('~framework7/src/components/navbar/navbar.less');
-@import url('~framework7/src/components/toolbar/toolbar.less');
-@import url('~framework7/src/components/subnavbar/subnavbar.less');
-@import url('~framework7/src/components/block/block.less');
-@import url('~framework7/src/components/list/list.less');
-@import url('~framework7/src/components/badge/badge.less');
-@import url('~framework7/src/components/button/button.less');
-@import url('~framework7/src/components/touch-ripple/touch-ripple.less');
-@import url('~framework7/src/components/icon/icon.less');
-@import url('~framework7/src/components/modal/modal.less');
+@import url('~framework7/dist/components/core/core.less');
+@import url('~framework7/dist/components/statusbar/statusbar.less');
+@import url('~framework7/dist/components/view/view.less');
+@import url('~framework7/dist/components/page/page.less');
+@import url('~framework7/dist/components/link/link.less');
+@import url('~framework7/dist/components/navbar/navbar.less');
+@import url('~framework7/dist/components/toolbar/toolbar.less');
+@import url('~framework7/dist/components/subnavbar/subnavbar.less');
+@import url('~framework7/dist/components/block/block.less');
+@import url('~framework7/dist/components/list/list.less');
+@import url('~framework7/dist/components/badge/badge.less');
+@import url('~framework7/dist/components/button/button.less');
+@import url('~framework7/dist/components/touch-ripple/touch-ripple.less');
+@import url('~framework7/dist/components/icon/icon.less');
+@import url('~framework7/dist/components/modal/modal.less');
 
 // Components
 <%= options.build.components
     .filter(component => component !== 'form')
-    .map(component => `@import url('~framework7/src/components/${component}/${component}.less');`).join('\n')
+    .map(component => `@import url('~framework7/dist/components/${component}/${component}.less');`).join('\n')
 %>

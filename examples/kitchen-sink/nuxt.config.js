@@ -2,6 +2,9 @@ const { join } = require('path')
 module.exports = {
   srcDir: __dirname,
   build: {
+    // remove postcss-cssnext due to https://github.com/MoOx/reduce-css-calc/issues/34
+    postcss: [
+    ],
     extractCSS: true
   },
   modules: [

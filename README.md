@@ -68,7 +68,7 @@ Option          | Type         | Default   |  Description
 `routes`        | Object       | `true`    | Route overrides (see below)
 `mode`          | String       | `hash`    | Router mode. Can be `hash` or `history`
 `view`          | Object       | defaults  | Options passed to root view of framework7
-`build`         | Object       | [framework7 defaults](https://unpkg.com/framework7/scripts/build-config.js) | Framework7 build config used for customizing less variables
+`build`         | Object       | [framework7 defaults](https://github.com/framework7io/Framework7/blob/master/scripts/build-config.js) | Framework7 build config used for customizing less variables
 `themeColor`    | String       | `undefined` | If specified, automatically sets all global theme colors to this value
 
 ### routes override
