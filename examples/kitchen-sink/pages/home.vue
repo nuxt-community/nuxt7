@@ -1,6 +1,6 @@
 <template>
   <f7-page>
-    <f7-navbar title="Nuxt7">
+    <f7-navbar title="Framework7">
       <f7-nav-right>
         <a class="link icon-only searchbar-enable" data-searchbar=".searchbar-components">
           <i class="icon f7-icons ios-only">search_strong</i>
@@ -84,7 +84,7 @@
     <f7-list class="searchbar-hide-on-search">
       <f7-list-item title="iOS Theme" external link="./?theme=ios"></f7-list-item>
       <f7-list-item title="Material (MD) Theme" external link="./?theme=md"></f7-list-item>
-      <f7-list-item title="Color Themes" external link="/color-themes/"></f7-list-item>
+      <f7-list-item title="Color Themes" link="/color-themes/"></f7-list-item>
     </f7-list>
   </f7-page>
 </template>

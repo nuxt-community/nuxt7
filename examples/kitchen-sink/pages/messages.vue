@@ -23,8 +23,8 @@
       <f7-messagebar-attachments>
         <f7-messagebar-attachment
           v-for="(image, index) in attachments"
-          :image="image"
           :key="index"
+          :image="image"
           @attachment:delete="deleteAttachment(image)"
         ></f7-messagebar-attachment>
       </f7-messagebar-attachments>
