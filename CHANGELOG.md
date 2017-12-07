@@ -2,6 +2,26 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.9.0"></a>
+# [0.9.0](https://github.com/pi0/nuxt7/compare/v0.8.5...v0.9.0) (2017-12-07)
+
+
+### Bug Fixes
+
+* cannot register vux store ([ada6a7b](https://github.com/pi0/nuxt7/commit/ada6a7b))
+
+
+### Features
+
+* upgrade Framework7 to v2.0.1 ([3d6d62f](https://github.com/pi0/nuxt7/commit/3d6d62f))
+
+
+### Performance Improvements
+
+* permanently disable postcss ([1f11ba7](https://github.com/pi0/nuxt7/commit/1f11ba7))
+
+
+
 <a name="0.8.5"></a>
 ## [0.8.5](https://github.com/pi0/nuxt7/compare/v0.8.4...v0.8.5) (2017-11-26)
 
