@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.9.1"></a>
+## [0.9.1](https://github.com/pi0/nuxt7/compare/v0.9.0...v0.9.1) (2017-12-22)
+
+
+
 <a name="0.9.0"></a>
 # [0.9.0](https://github.com/pi0/nuxt7/compare/v0.8.5...v0.9.0) (2017-12-07)
 
