@@ -7,7 +7,8 @@
     "dev": "npm run ks",
     "ks": "nuxt dev -c examples/kitchen-sink/nuxt.config.js",
     "ks-build": "nuxt build -c examples/kitchen-sink/nuxt.config.js",
-    "ks-analyze": "nuxt build -c examples/kitchen-sink/nuxt.config.js --analyze",
+    "ks-analyze":
+      "nuxt build -c examples/kitchen-sink/nuxt.config.js --analyze",
     "ks-start": "nuxt start --spa -c examples/kitchen-sink/nuxt.config.js",
     "ks-generate": "nuxt generate -c examples/kitchen-sink/nuxt.config.js",
     "lint": "eslint --ext .js,.vue .",
@@ -17,25 +18,18 @@
     "release": "standard-version && git push --follow-tags && npm publish"
   },
   "lint-staged": {
-    "*.{js,vue}": [
-      "yarn lint"
-    ]
+    "*.{js,vue}": ["yarn lint"]
   },
   "dependencies": {
-    "@nuxtjs/pwa": "^2.0.4",
-    "framework7": "^2.0.2",
-    "framework7-vue": "^2.0.0-beta.5",
+    "@nuxtjs/pwa": "^2.0.5",
+    "framework7": "^2.0.6",
+    "framework7-vue": "^2.0.0",
     "less": "^2.7.3",
     "less-loader": "^4.0.5",
     "lodash": "^4.17.4"
   },
-  "files": [
-    "lib",
-    "template",
-    "sao.js"
-  ],
   "devDependencies": {
-    "eslint": "^4.13.1",
+    "eslint": "^4.15.0",
     "eslint-config-standard": "^11.0.0-beta.0",
     "eslint-plugin-html": "^4.0.1",
     "eslint-plugin-import": "^2.8.0",
@@ -44,8 +38,8 @@
     "eslint-plugin-standard": "^3.0.1",
     "husky": "^0.14.3",
     "lint-staged": "^6.0.0",
-    "nuxt": "next",
-    "standard-version": "^4.2.0",
+    "nuxt": "^1.1.1",
+    "standard-version": "^4.3.0",
     "surge": "^0.19.0"
   }
 }

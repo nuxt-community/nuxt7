@@ -11,6 +11,6 @@
   },
   "dependencies": {
     "nuxt7": "latest",
-    "nuxt": "next"
+    "nuxt": "^1.1.1"
   }
 }
