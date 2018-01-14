@@ -32,13 +32,13 @@ to rapidly create efficient and feature-reach [PWA](https://developers.google.co
 
 <h2 align="center">✨ Features</h2>
 
-- Fully compatible with framework7 2.x
-- Development mode with hot reloading
-- Optimized production builds suitable for 100% static hosting
-- Fully PWA compatible out of the box
-- Page based router for Framework7
-- Use vuex store in your apps
-- Familiar nuxt.js development experience with a super easy learning curve
+* Fully compatible with framework7 2.x
+* Development mode with hot reloading
+* Optimized production builds suitable for 100% static hosting
+* Fully PWA compatible out of the box
+* Page based router for Framework7
+* Use vuex store in your apps
+* Familiar nuxt.js development experience with a super easy learning curve
 
 <h2 align="center">⚔️ Quick Start</h2>
 
@@ -48,30 +48,37 @@ Use the command below to create a new app using starter template:
 > npx sao nuxt-community/nuxt7 nuxt7-app
 ```
 
-<h2 align="center">👉 Demo</h2>
+<h2 align="center">▶️ Examples</h2>
 
-Latest version is always published [Here.](https://nuxt7.cf) (Thanks to Surge and CloudFlare for hosting)
+* [kitchen-sink](./examples/kitchen-sink) - [online version](https://nuxt7.cf)
+* [with-params](./examples/with-params)
 
-🔦 Lighthouse tests: [Mobile Regular 3G](https://www.webpagetest.org/result/171108_XA_8a8f20e7c71b24cb17e3c269cb5d8a5c)
+To locally run each example:
+
+* Clone this repository
+* Install dependencies using `yarn install`
+* Run examples in developmentm mode using `yarn examples/[example name]`
+* Navigate to `http://localhost:3000`
 
 <h2 align="center">🔧 Module options</h2>
 
 Add options in `framework7` section inside `nuxt.config.js` file.
 
-Option          | Type         | Default   |  Description
-----------------|--------------|-----------|--------------------------------------------------------------
-`css`           | Boolean      | `true`    | Include Framework7 styles (Useful to disable and provide your own)
-`rtl`           | Boolean      | `false`   | Enable RTL layout
-`f7Icons`       | Boolean      | `true`    | Include Framework7 Icons (IOS)
-`mdIcons`       | Boolean      | `true`    | Include MD Icons
-`pwa`           | Boolean      | `true`    | Enable [@nuxtjs/pwa](https://github.com/nuxt-community/pwa-module) module
-`routes`        | Object       | `true`    | Route overrides (see below)
-`mode`          | String       | `hash`    | Router mode. Can be `hash` or `history`
-`view`          | Object       | defaults  | Options passed to root view of framework7
-`build`         | Object       | [framework7 defaults](https://github.com/framework7io/Framework7/blob/master/scripts/build-config.js) | Framework7 build config used for customizing less variables
-`themeColor`    | String       | `undefined` | If specified, automatically sets all global theme colors to this value
+| Option       | Type    | Default                                                                                               | Description                                                               |
+| ------------ | ------- | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| `css`        | Boolean | `true`                                                                                                | Include Framework7 styles (Useful to disable and provide your own)        |
+| `rtl`        | Boolean | `false`                                                                                               | Enable RTL layout                                                         |
+| `f7Icons`    | Boolean | `true`                                                                                                | Include Framework7 Icons (IOS)                                            |
+| `mdIcons`    | Boolean | `true`                                                                                                | Include MD Icons                                                          |
+| `pwa`        | Boolean | `true`                                                                                                | Enable [@nuxtjs/pwa](https://github.com/nuxt-community/pwa-module) module |
+| `routes`     | Object  | `true`                                                                                                | Route overrides (see below)                                               |
+| `mode`       | String  | `hash`                                                                                                | Router mode. Can be `hash` or `history`                                   |
+| `view`       | Object  | defaults                                                                                              | Options passed to root view of framework7                                 |
+| `build`      | Object  | [framework7 defaults](https://github.com/framework7io/Framework7/blob/master/scripts/build-config.js) | Framework7 build config used for customizing less variables               |
+| `themeColor` | String  | `undefined`                                                                                           | If specified, automatically sets all global theme colors to this value    |
 
 ### routes override
+
 Routes are auto generated using pages directory structure.
 However if you need to make more customization (Like adding routable tabs) this option may be used.
 

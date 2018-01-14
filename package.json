@@ -5,11 +5,11 @@
   "main": "lib/module.js",
   "scripts": {
     "dev": "npm run ks",
-    "ks": "nuxt dev -c examples/kitchen-sink/nuxt.config.js",
-    "ks-build": "nuxt build -c examples/kitchen-sink/nuxt.config.js",
-    "ks-analyze": "nuxt build -c examples/kitchen-sink/nuxt.config.js --analyze",
-    "ks-start": "nuxt start --spa -c examples/kitchen-sink/nuxt.config.js",
-    "ks-generate": "nuxt generate -c examples/kitchen-sink/nuxt.config.js",
+    "ks": "nuxt dev examples/kitchen-sink",
+    "ks-build": "nuxt build examples/kitchen-sink",
+    "ks-analyze": "nuxt build --analyze examples/kitchen-sink",
+    "ks-start": "nuxt start --spa examples/kitchen-sink",
+    "ks-generate": "nuxt generate examples/kitchen-sink",
     "lint": "eslint --ext .js,.vue .",
     "test": "npm run lint",
     "precommit": "lint-staged",
@@ -17,9 +17,7 @@
     "release": "standard-version && git push --follow-tags && npm publish"
   },
   "lint-staged": {
-    "*.{js,vue}": [
-      "yarn lint"
-    ]
+    "*.{js,vue}": ["yarn lint"]
   },
   "dependencies": {
     "@nuxtjs/pwa": "^2.0.5",

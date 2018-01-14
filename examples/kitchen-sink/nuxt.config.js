@@ -1,14 +1,14 @@
-const { join } = require('path')
+const { resolve } = require('path')
+
 module.exports = {
+  rootDir: resolve(__dirname, '../..'),
   srcDir: __dirname,
+  modules: ['@@/lib/module'],
   build: {
     extractCSS: true
   },
-  modules: [
-    '@@'
-  ],
   generate: {
-    dir: join(__dirname, 'dist')
+    dir: resolve(__dirname, 'dist')
   },
   manifest: {
     name: 'Nuxt7',
@@ -20,14 +20,12 @@ module.exports = {
     routes: {
       'tabs-routable': {
         tabs: [
-          { path: "/", id: "tab1" },
-          { path: "/tab2/", id: "tab2" },
-          { path: "/tab3/", id: "tab3" },
+          { path: '/', id: 'tab1' },
+          { path: '/tab2/', id: 'tab2' },
+          { path: '/tab3/', id: 'tab3' }
         ]
       }
     }
   },
-  css: [
-    'css/app.css'
-  ]
+  css: ['css/app.css']
 }
