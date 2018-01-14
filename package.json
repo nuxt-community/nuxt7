@@ -1,14 +1,13 @@
 {
   "name": "nuxt7",
-  "version": "0.9.1",
+  "version": "1.0.0",
   "license": "MIT",
   "main": "lib/module.js",
   "scripts": {
     "dev": "npm run ks",
     "ks": "nuxt dev -c examples/kitchen-sink/nuxt.config.js",
     "ks-build": "nuxt build -c examples/kitchen-sink/nuxt.config.js",
-    "ks-analyze":
-      "nuxt build -c examples/kitchen-sink/nuxt.config.js --analyze",
+    "ks-analyze": "nuxt build -c examples/kitchen-sink/nuxt.config.js --analyze",
     "ks-start": "nuxt start --spa -c examples/kitchen-sink/nuxt.config.js",
     "ks-generate": "nuxt generate -c examples/kitchen-sink/nuxt.config.js",
     "lint": "eslint --ext .js,.vue .",
@@ -18,7 +17,9 @@
     "release": "standard-version && git push --follow-tags && npm publish"
   },
   "lint-staged": {
-    "*.{js,vue}": ["yarn lint"]
+    "*.{js,vue}": [
+      "yarn lint"
+    ]
   },
   "dependencies": {
     "@nuxtjs/pwa": "^2.0.5",
