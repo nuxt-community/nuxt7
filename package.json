@@ -21,24 +21,24 @@
   },
   "dependencies": {
     "@nuxtjs/pwa": "^2.0.5",
-    "framework7": "^2.0.6",
-    "framework7-vue": "^2.0.0",
+    "framework7": "^2.0.7",
+    "framework7-vue": "^2.0.7",
     "less": "^2.7.3",
     "less-loader": "^4.0.5",
     "lodash": "^4.17.4"
   },
   "devDependencies": {
-    "eslint": "^4.15.0",
-    "eslint-config-standard": "^11.0.0-beta.0",
-    "eslint-plugin-html": "^4.0.1",
-    "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-node": "^5.2.1",
-    "eslint-plugin-promise": "^3.6.0",
-    "eslint-plugin-standard": "^3.0.1",
-    "husky": "^0.14.3",
-    "lint-staged": "^6.0.0",
-    "nuxt": "^1.1.1",
-    "standard-version": "^4.3.0",
-    "surge": "^0.19.0"
+    "eslint": "latest",
+    "eslint-config-standard": "latest",
+    "eslint-plugin-html": "latest",
+    "eslint-plugin-import": "latest",
+    "eslint-plugin-node": "latest",
+    "eslint-plugin-promise": "latest",
+    "eslint-plugin-standard": "latest",
+    "husky": "latest",
+    "lint-staged": "latest",
+    "nuxt": "latest",
+    "standard-version": "latest",
+    "surge": "latest"
   }
 }
