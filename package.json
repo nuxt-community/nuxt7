@@ -1,6 +1,6 @@
 {
   "name": "nuxt7",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "main": "lib/module.js",
   "scripts": {
@@ -17,7 +17,9 @@
     "release": "standard-version && git push --follow-tags && npm publish"
   },
   "lint-staged": {
-    "*.{js,vue}": ["yarn lint"]
+    "*.{js,vue}": [
+      "yarn lint"
+    ]
   },
   "dependencies": {
     "@nuxtjs/pwa": "^2.0.5",

@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.1.0"></a>
+# [1.1.0](https://github.com/pi0/nuxt7/compare/v1.0.0...v1.1.0) (2018-01-28)
+
+
+### Features
+
+* support options.tough ([11e3aaf](https://github.com/pi0/nuxt7/commit/11e3aaf))
+
+
+
 <a name="1.0.0"></a>
 # [1.0.0](https://github.com/pi0/nuxt7/compare/v0.9.1...v1.0.0) (2018-01-14)
 
