@@ -18,6 +18,7 @@ module.exports = {
   framework7: {
     themeColor: '#2196f3',
     mode: 'history',
+    foo: 'bar',
     routes: {
       'tabs-routable': {
         tabs: [
