@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.2.0"></a>
+# [1.2.0](https://github.com/pi0/nuxt7/compare/v1.1.0...v1.2.0) (2018-02-08)
+
+
+### Features
+
+* allow passing arbitrary options to framework7 ([6b10d13](https://github.com/pi0/nuxt7/commit/6b10d13))
+
+
+
 <a name="1.1.0"></a>
 # [1.1.0](https://github.com/pi0/nuxt7/compare/v1.0.0...v1.1.0) (2018-01-28)
 
