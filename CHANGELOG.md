@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.2.1"></a>
+## [1.2.1](https://github.com/pi0/nuxt7/compare/v1.2.0...v1.2.1) (2018-02-09)
+
+
+### Bug Fixes
+
+* **plugin:** omit routes key ([14483c7](https://github.com/pi0/nuxt7/commit/14483c7))
+
+
+
 <a name="1.2.0"></a>
 # [1.2.0](https://github.com/pi0/nuxt7/compare/v1.1.0...v1.2.0) (2018-02-08)
 
