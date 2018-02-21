@@ -16,6 +16,7 @@ module.exports = {
     description: 'Nuxt7 PWA Demo'
   },
   framework7: {
+    ssr: true,
     themeColor: '#2196f3',
     mode: 'history',
     foo: 'bar',
