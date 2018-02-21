@@ -60,35 +60,26 @@
   </f7-page>
 </template>
 <script>
-import {
-  f7Navbar,
-  f7Page,
-  f7BlockTitle,
-  f7Chip,
-  f7Block,
-  f7Icon
-} from 'framework7-vue'
+  import { f7Navbar, f7Page, f7BlockTitle, f7Chip, f7Block, f7Icon } from 'framework7-vue';
 
-export default {
-  components: {
-    f7Navbar,
-    f7Page,
-    f7BlockTitle,
-    f7Chip,
-    f7Block,
-    f7Icon
-  },
-  methods: {
-    deleteChip(e) {
-      const $$ = this.$$
-      const app = this.$f7
-      app.dialog.confirm('Do you want to delete this tiny demo Chip?', () => {
-        $$(e.target)
-          .parents('.chip')
-          .remove()
-      })
-    }
-  }
-}
+  export default {
+    components: {
+      f7Navbar,
+      f7Page,
+      f7BlockTitle,
+      f7Chip,
+      f7Block,
+      f7Icon,
+    },
+    methods: {
+      deleteChip(e) {
+        const $$ = this.$$;
+        const app = this.$f7;
+        app.dialog.confirm('Do you want to delete this tiny demo Chip?', () => {
+          $$(e.target).parents('.chip').remove();
+        });
+      },
+    },
+  };
 </script>
 
