@@ -57,7 +57,7 @@ To locally run each example:
 
 * Clone this repository
 * Install dependencies using `yarn install`
-* Run examples in developmentm mode using `yarn examples/[example name]`
+* Run examples in development mode using `yarn examples/[example name]`
 * Navigate to `http://localhost:3000`
 
 <h2 align="center">🔧 Module options</h2>
