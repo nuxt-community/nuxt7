@@ -7,3 +7,4 @@ node_modules
 sw.*
 workbox-*
 dist
+*.log
