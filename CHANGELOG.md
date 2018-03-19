@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.4.0"></a>
+# [1.4.0](https://github.com/pi0/nuxt7/compare/v1.3.1...v1.4.0) (2018-03-19)
+
+
+### Features
+
+* update dependencies (framework7 2.1.x) ([0fdd943](https://github.com/pi0/nuxt7/commit/0fdd943))
+
+
+
 <a name="1.3.1"></a>
 ## [1.3.1](https://github.com/pi0/nuxt7/compare/v1.3.0...v1.3.1) (2018-02-21)
 
