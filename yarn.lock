@@ -4312,14 +4312,14 @@ less-loader@^4.1.0:
     loader-utils "^1.1.0"
     pify "^3.0.0"
 
-less@^3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/less/-/less-3.0.1.tgz#ba2fea24a5632ccb8c84230d6043c0bf91855e37"
+less@^2.7.3:
+  version "2.7.3"
+  resolved "https://registry.yarnpkg.com/less/-/less-2.7.3.tgz#cc1260f51c900a9ec0d91fb6998139e02507b63b"
   optionalDependencies:
     errno "^0.1.1"
     graceful-fs "^4.1.2"
     image-size "~0.5.0"
-    mime "^1.4.1"
+    mime "^1.2.11"
     mkdirp "^0.5.0"
     promise "^7.1.1"
     request "2.81.0"
@@ -4724,7 +4724,7 @@ mime@1.4.1:
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/mime/-/mime-1.4.1.tgz#121f9ebc49e3766f311a76e1fa1c8003c4b03aa6"
 
-mime@^1.3.4, mime@^1.4.1:
+mime@^1.2.11, mime@^1.3.4, mime@^1.4.1:
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/mime/-/mime-1.6.0.tgz#32cd9e5c64553bd58d19a568af452acff04981b1"
 
@@ -5034,9 +5034,9 @@ number-is-nan@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
 
-nuxt-edge@^2.0.0-25358060.f57096e:
-  version "2.0.0-25358060.f57096e"
-  resolved "https://registry.yarnpkg.com/nuxt-edge/-/nuxt-edge-2.0.0-25358060.f57096e.tgz#f9fbce0a27e730e53e43b3140ac52da4d032a84e"
+nuxt-edge@^2.0.0-25358256.774c8d2:
+  version "2.0.0-25358256.774c8d2"
+  resolved "https://registry.yarnpkg.com/nuxt-edge/-/nuxt-edge-2.0.0-25358256.774c8d2.tgz#7c25ccc373a0834791a420769774f00ce545bebd"
   dependencies:
     "@nuxtjs/friendly-errors-webpack-plugin" "^2.0.0"
     "@nuxtjs/youch" "^4.2.3"
