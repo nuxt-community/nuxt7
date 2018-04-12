@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.0.1"></a>
+## [2.0.1](https://github.com/nuxt-community/nuxt7/compare/v2.0.0...v2.0.1) (2018-04-12)
+
+
+### Bug Fixes
+
+* relative imports ([8a5cf72](https://github.com/nuxt-community/nuxt7/commit/8a5cf72))
+
+
+
 <a name="2.0.0"></a>
 # [2.0.0](https://github.com/pi0/nuxt7/compare/v1.4.0...v2.0.0) (2018-04-12)
 
