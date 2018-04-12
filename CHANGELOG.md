@@ -2,6 +2,36 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.0.0"></a>
+# [2.0.0](https://github.com/pi0/nuxt7/compare/v1.4.0...v2.0.0) (2018-04-12)
+
+
+### Bug Fixes
+
+* path for Windows ([#35](https://github.com/pi0/nuxt7/issues/35)) ([46f7a43](https://github.com/pi0/nuxt7/commit/46f7a43))
+* transpile framework7 es builds ([cc461db](https://github.com/pi0/nuxt7/commit/cc461db))
+
+
+### Features
+
+* add components to build config: list-index, stepper ([f77aa47](https://github.com/pi0/nuxt7/commit/f77aa47))
+* enable all ios colors ([2821f0f](https://github.com/pi0/nuxt7/commit/2821f0f))
+* enable all md colors ([e0e1dee](https://github.com/pi0/nuxt7/commit/e0e1dee))
+* rewrite to be fully es compatible ([6cc0eec](https://github.com/pi0/nuxt7/commit/6cc0eec))
+* update framework7 to 2.2.1 ([9b81390](https://github.com/pi0/nuxt7/commit/9b81390))
+
+
+### Performance Improvements
+
+* use webpack 4 cacheGroup for framework7 ([1a28183](https://github.com/pi0/nuxt7/commit/1a28183))
+
+
+### BREAKING CHANGES
+
+* by default all components are included as before but may introduce breaking changes
+
+
+
 <a name="1.4.0"></a>
 # [1.4.0](https://github.com/pi0/nuxt7/compare/v1.3.1...v1.4.0) (2018-03-19)
 
