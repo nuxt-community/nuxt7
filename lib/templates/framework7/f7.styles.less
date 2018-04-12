@@ -30,7 +30,4 @@
 @import url('~framework7/dist/components/modal/modal.less');
 
 // Components
-<%= options.build.components
-    .filter(component => component !== 'form')
-    .map(component => `@import url('~framework7/dist/components/${component}/${component}.less');`).join('\n')
-%>
+<%= options.build._components.filter(c => c.less).map(c => `@import url('${c.less}');`).join('\n') %>
