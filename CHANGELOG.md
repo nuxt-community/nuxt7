@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.0.4"></a>
+## [2.0.4](https://github.com/nuxt-community/nuxt7/compare/v2.0.3...v2.0.4) (2019-01-27)
+
+
+### Bug Fixes
+
+* **module:** nuxt 2.4 compatibility ([#44](https://github.com/nuxt-community/nuxt7/issues/44)) ([8adc08a](https://github.com/nuxt-community/nuxt7/commit/8adc08a))
+
+
+
 <a name="2.0.3"></a>
 ## [2.0.3](https://github.com/nuxt-community/nuxt7/compare/v2.0.2...v2.0.3) (2018-04-12)
 
