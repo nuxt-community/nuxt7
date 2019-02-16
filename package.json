@@ -10,7 +10,7 @@
     "ks-analyze": "nuxt build --analyze examples/kitchen-sink",
     "ks-start": "nuxt start --spa examples/kitchen-sink",
     "ks-generate": "nuxt generate examples/kitchen-sink",
-    "lint": "eslint --ext .js,.vue .",
+    "lint": "eslint --ext .js,.vue lib",
     "test": "npm run lint",
     "precommit": "lint-staged",
     "surge": "surge -d https://nuxt7.cf examples/kitchen-sink/dist",
