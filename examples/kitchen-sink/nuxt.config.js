@@ -21,9 +21,9 @@ module.exports = {
     routes: {
       'tabs-routable': {
         tabs: [
-          { path: '/', id: 'tab1' },
-          { path: '/tab2/', id: 'tab2' },
-          { path: '/tab3/', id: 'tab3' }
+          { path: '/', id: 'tab1', content: 'Tab Content 1' },
+          { path: '/tab2/', id: 'tab2', content: 'Tab Content 2' },
+          { path: '/tab3/', id: 'tab3', content: 'Tab Content 3' }
         ]
       }
     }
