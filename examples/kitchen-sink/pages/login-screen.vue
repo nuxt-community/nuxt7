@@ -10,25 +10,31 @@
     </f7-list>
 
     <f7-block>
-      <f7-button raised big fill login-screen-open=".demo-login-screen">As Overlay</f7-button>
+      <f7-button raised large fill login-screen-open=".demo-login-screen">As Overlay</f7-button>
     </f7-block>
 
     <f7-block>
-      <f7-button raised big fill @click="loginScreenOpened = true">Open Via Prop Change</f7-button>
+      <f7-button raised large fill @click="loginScreenOpened = true">Open Via Prop Change</f7-button>
     </f7-block>
 
     <f7-login-screen class="demo-login-screen" :opened="loginScreenOpened" @loginscreen:closed="loginScreenOpened = false">
       <f7-page login-screen>
         <f7-login-screen-title>Framework7</f7-login-screen-title>
         <f7-list form>
-          <f7-list-item>
-            <f7-label>Username</f7-label>
-            <f7-input type="text" placeholder="Your username" @input="username = $event.target.value"></f7-input>
-          </f7-list-item>
-          <f7-list-item>
-            <f7-label>Password</f7-label>
-            <f7-input type="password" placeholder="Your password" @input="password = $event.target.value"></f7-input>
-          </f7-list-item>
+          <f7-list-input
+            label="Username"
+            type="text"
+            placeholder="Your username"
+            :value="username"
+            @input="username = $event.target.value"
+          ></f7-list-input>
+          <f7-list-input
+            label="Password"
+            type="password"
+            placeholder="Your password"
+            :value="password"
+            @input="password = $event.target.value"
+          ></f7-list-input>
         </f7-list>
         <f7-list>
           <f7-list-button @click="signIn">Sign In</f7-list-button>
@@ -39,7 +45,7 @@
   </f7-page>
 </template>
 <script>
-  import { f7Navbar, f7Page, f7Link, f7LoginScreen, f7Input, f7List, f7ListItem, f7Block, f7Button, f7LoginScreenTitle, f7BlockFooter, f7Label, f7ListButton } from 'framework7-vue';
+  import { f7Navbar, f7Page, f7Link, f7LoginScreen, f7List, f7ListItem, f7Block, f7Button, f7LoginScreenTitle, f7BlockFooter, f7ListButton, f7ListInput } from 'framework7-vue';
 
   export default {
     components: {
@@ -47,15 +53,14 @@
       f7Page,
       f7Link,
       f7LoginScreen,
-      f7Input,
       f7List,
       f7ListItem,
       f7Block,
       f7Button,
       f7LoginScreenTitle,
       f7BlockFooter,
-      f7Label,
       f7ListButton,
+      f7ListInput,
     },
     data() {
       return {

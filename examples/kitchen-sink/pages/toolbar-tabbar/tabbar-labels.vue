@@ -1,1 +1,0 @@
-../tabbar-labels.vue

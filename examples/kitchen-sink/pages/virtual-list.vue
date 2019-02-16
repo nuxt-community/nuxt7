@@ -31,6 +31,7 @@
           :title="item.title"
           :subtitle="item.subtitle"
           :style="`top: ${vlData.topPosition}px`"
+          :virtual-list-index="items.indexOf(item)"
         ></f7-list-item>
       </ul>
     </f7-list>
@@ -53,7 +54,9 @@
       }
       return {
         items,
-        vlData: {},
+        vlData: {
+          items: [],
+        },
       };
     },
     methods: {

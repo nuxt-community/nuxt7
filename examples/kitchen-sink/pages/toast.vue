@@ -1,31 +1,31 @@
 <template>
-  <f7-page>
+  <f7-page  @page:beforeremove="onPageBeforeRemove" @page:beforeout="onPageBeforeOut">
     <f7-navbar title="Toast" back-link="Back"></f7-navbar>
     <f7-block>
       <p>Toasts provide brief feedback about an operation through a message on the screen.</p>
       <p>
-        <f7-button raised @click="showToastBottom">Toast on Bottom</f7-button>
+        <f7-button fill @click="showToastBottom">Toast on Bottom</f7-button>
       </p>
       <p>
-        <f7-button raised @click="showToastTop">Toast on Top</f7-button>
+        <f7-button fill @click="showToastTop">Toast on Top</f7-button>
       </p>
       <p>
-        <f7-button raised @click="showToastCenter">Toast on Center</f7-button>
+        <f7-button fill @click="showToastCenter">Toast on Center</f7-button>
       </p>
       <p>
-        <f7-button raised @click="showToastIcon">Toast with icon</f7-button>
+        <f7-button fill @click="showToastIcon">Toast with icon</f7-button>
       </p>
       <p>
-        <f7-button raised @click="showToastLargeMessage">Toast with large message</f7-button>
+        <f7-button fill @click="showToastLargeMessage">Toast with large message</f7-button>
       </p>
       <p>
-        <f7-button raised @click="showToastWithButton">Toast with close button</f7-button>
+        <f7-button fill @click="showToastWithButton">Toast with close button</f7-button>
       </p>
       <p>
-        <f7-button raised @click="showToastWithCustomButton">Toast with custom button</f7-button>
+        <f7-button fill @click="showToastWithCustomButton">Toast with custom button</f7-button>
       </p>
       <p>
-        <f7-button raised @click="showToastWithCallback">Toast with callback on close</f7-button>
+        <f7-button fill @click="showToastWithCallback">Toast with callback on close</f7-button>
       </p>
     </f7-block>
   </f7-page>
@@ -81,7 +81,7 @@
         // Create toast
         if (!self.toastIcon) {
           self.toastIcon = self.$f7.toast.create({
-            icon: self.$theme.ios ? '<i class="f7-icons">start</i>' : '<i class="material-icons">start</i>',
+            icon: self.$theme.ios ? '<i class="f7-icons">star_fill</i>' : '<i class="material-icons">star</i>',
             text: 'I\'m on center',
             position: 'center',
             closeTimeout: 2000,
@@ -145,13 +145,11 @@
         // Open it
         self.toastWithCallback.open();
       },
-    },
-    on: {
-      pageBeforeOut() {
+      onPageBeforeOut() {
         const self = this;
         self.$f7.toast.close();
       },
-      pageBeforeRemove() {
+      onPageBeforeRemove() {
         const self = this;
         // Destroy toasts when page removed
         if (self.toastBottom) self.toastBottom.destroy();

@@ -1,5 +1,5 @@
 <template>
-  <f7-page :page-content="false">
+  <f7-page :page-content="false" @page:beforeremove="onPageBeforeRemove" @page:init="onPageInit">
     <f7-navbar title="Calendar" back-link="Back"></f7-navbar>
     <div class="page-content">
       <div class="block">
@@ -62,7 +62,7 @@
           </li>
         </ul>
       </div>
-      <div class="block-title">Open in Mondal</div>
+      <div class="block-title">Open in Modal</div>
       <div class="list no-hairlines-md">
         <ul>
           <li>
@@ -92,6 +92,20 @@
       <div class="block block-strong no-padding">
         <div id="demo-calendar-inline-container"></div>
       </div>
+      <div class="block-title">Jalali Calendar</div>
+      <div class="list no-hairlines-md">
+        <ul>
+          <li>
+            <div class="item-content item-input">
+              <div class="item-inner">
+                <div class="item-input-wrap">
+                  <input type="text" placeholder="Your birth date in Jalali" readonly="readonly" id="demo-jcalendar-default"/>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
     </div>
   </f7-page>
 </template>
@@ -103,14 +117,19 @@
       f7Navbar,
       f7Page,
     },
-    on: {
-      pageInit(e) {
+    methods: {
+      onPageInit(e) {
         const self = this;
         const app = self.$f7;
         const $ = self.$$;
         // Default
         self.calendarDefault = app.calendar.create({
           inputEl: '#demo-calendar-default',
+        });
+        // Jalali
+        self.jcalendarDefault = app.calendar.create({
+          calendarType: 'jalali',
+          inputEl: '#demo-jcalendar-default',
         });
         // With custom date format
         self.calendarDateFormat = app.calendar.create({
@@ -143,17 +162,19 @@
           containerEl: '#demo-calendar-inline-container',
           value: [new Date()],
           renderToolbar() {
-            return `${'<div class="toolbar calendar-custom-toolbar no-shadow">' +
-        '<div class="toolbar-inner">' +
-          '<div class="left">' +
-            '<a href="#" class="link icon-only"><i class="icon icon-back '}${self.$theme.md ? 'color-black' : ''}"></i></a>` +
-          '</div>' +
-          '<div class="center"></div>' +
-          '<div class="right">' +
-            `<a href="#" class="link icon-only"><i class="icon icon-forward ${self.$theme.md ? 'color-black' : ''}"></i></a>` +
-          '</div>' +
-        '</div>' +
-      '</div>';
+            return `
+              <div class="toolbar calendar-custom-toolbar no-shadow">
+                <div class="toolbar-inner">
+                  <div class="left">
+                    <a href="#" class="link icon-only"><i class="icon icon-back"></i></a>
+                  </div>
+                  <div class="center"></div>
+                  <div class="right">
+                    <a href="#" class="link icon-only"><i class="icon icon-forward"></i></a>
+                  </div>
+                </div>
+              </div>
+            `.trim();
           },
           on: {
             init(c) {
@@ -171,9 +192,10 @@
           },
         });
       },
-      pageBeforeRemove() {
+      onPageBeforeRemove() {
         const self = this;
         self.calendarDefault.destroy();
+        self.jcalendarDefault.destroy();
         self.calendarDateFormat.destroy();
         self.calendarMultiple.destroy();
         self.calendarRange.destroy();
