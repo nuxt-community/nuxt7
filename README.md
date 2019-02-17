@@ -30,7 +30,7 @@ to rapidly create efficient and feature-reach [PWA](https://developers.google.co
 
 <a href="./CHANGELOG.md">📖 Release Notes</a>
 
-<h2 align="center">✨ Features</h2>
+## ✨ Features
 
 * Fully compatible with framework7 2.x
 * Development mode with hot reloading
@@ -40,7 +40,7 @@ to rapidly create efficient and feature-reach [PWA](https://developers.google.co
 * Use vuex store in your apps
 * Familiar nuxt.js development experience with a super easy learning curve
 
-<h2 align="center">⚔️ Quick Start</h2>
+## ⚔️ Quick Start
 
 Use the command below to create a new app using starter template:
 
@@ -48,7 +48,7 @@ Use the command below to create a new app using starter template:
 > npx sao nuxt-community/nuxt7 nuxt7-app
 ```
 
-<h2 align="center">▶️ Examples</h2>
+## ▶️ Examples
 
 * [kitchen-sink](./examples/kitchen-sink) - [online version](https://nuxt7.cf)
 * [with-params](./examples/with-params)
@@ -60,7 +60,7 @@ To locally run each example:
 * Run examples in development mode using `yarn examples/[example name]`
 * Navigate to `http://localhost:3000`
 
-<h2 align="center">🔧 Module options</h2>
+## 🔧 Module options
 
 Add options in `framework7` section inside `nuxt.config.js` file.
 
@@ -182,6 +182,6 @@ yarn install
 yarn dev
 ```
 
-<h2 align="center">License</h2>
+## License
 
 MIT - Nuxt Community - Pooya Parsa
