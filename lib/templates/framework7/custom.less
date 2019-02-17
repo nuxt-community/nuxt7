@@ -29,9 +29,12 @@ body,
 <% } %>
 <%if (options.build.noLongTap) { %>
 /* Disable mobile browser default "long-tap" actions for all elements */
-* {
-  -moz-user-select: none;
-  -webkit-user-select: none;
-  user-select: none;
+*:not(input):not(textarea) {
+    /* Disable selection/copy in UIWebView */
+    user-select: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
 }
 <% } %>
