@@ -2,17 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-# [3.0.0-beta.1](https://github.com/nuxt-community/nuxt7/compare/v3.0.0-beta.0...v3.0.0-beta.1) (2019-02-17)
+# [3.0.0-beta.2](https://github.com/nuxt-community/nuxt7/compare/v3.0.0-beta.1...v3.0.0-beta.2) (2019-02-17)
 
 
 ### Bug Fixes
 
-* use options.build.themeColor ([14d6ff6](https://github.com/nuxt-community/nuxt7/commit/14d6ff6))
-
-
-### Features
-
-* default router mode to history ([c69fbee](https://github.com/nuxt-community/nuxt7/commit/c69fbee))
+* **custom:** don't disable context menu of input and textareas ([02a28ca](https://github.com/nuxt-community/nuxt7/commit/02a28ca))
 
 
 
