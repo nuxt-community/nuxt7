@@ -114,14 +114,14 @@ Invert navigation bars to fill style.
 - Type: `boolean`
 - Default: `true`
 
-Disable context menu with long touch.
+Disable context menu with long touch. (Recommanded to enable `disableSelect` too)
 
 ### `disableSelect`
 
 - Type: `boolean`
-- Default: `false`
+- Default: `true`
 
-Disable selection/copy in UIWebView.
+Disable selection/copy in UIWebView. (Useful to use with `disableContextMenu`)
 
 ### `rtl`
 
