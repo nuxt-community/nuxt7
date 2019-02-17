@@ -170,7 +170,7 @@ framework7: {
 }
 ```
 
-<h2 align="center">🍳 Development</h2>
+## 🍳 Development
 
 ```bash
 # Fork and clone git@github.com:nuxt-community/nuxt7.git
