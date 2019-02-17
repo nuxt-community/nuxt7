@@ -96,7 +96,7 @@ Props passed to the **main** `<f7-view>`. See [View Component](https://framework
 ### `mode`
 
 - Type: `String`
-- Default: `hash`
+- Default: `history`
 
 Router mode. Can be `hash` or `history`.
 

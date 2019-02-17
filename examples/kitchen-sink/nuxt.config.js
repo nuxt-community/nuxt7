@@ -19,8 +19,6 @@ module.exports = {
     description: 'Nuxt7 PWA Demo'
   },
   framework7: {
-    themeColor: '#2196f3',
-    mode: 'history',
     routes: {
       'tabs-routable': {
         tabs: [
