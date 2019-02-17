@@ -31,4 +31,4 @@
 @import url('~framework7/components/modal/modal.less');
 
 // Components
-<%= options.build._components.filter(c => c.less).map(c => `@import url('${c.less}');`).join('\n') %>
+<%= options._components.filter(c => c.less).map(c => `@import url('${c.less}');`).join('\n') %>
