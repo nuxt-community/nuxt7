@@ -1,17 +1,17 @@
 @import (reference) '~framework7/less/mixins.less';
 
-@includeIosTheme: <%= options.build.themes.indexOf('ios') >= 0 %>;
-@includeMdTheme: <%= options.build.themes.indexOf('md') >= 0 %>;
+@includeIosTheme: <%= options.themes.indexOf('ios') >= 0 %>;
+@includeMdTheme: <%= options.themes.indexOf('md') >= 0 %>;
 
-@includeDarkTheme: <%= options.build.darkTheme %>;
+@includeDarkTheme: <%= options.darkTheme %>;
 
-@themeColor: <%= options.build.themeColor %>;
+@themeColor: <%= options.themeColor %>;
 
 @colors: {
-  <%= Object.keys(options.build.colors).map(colorName => `${colorName}: ${options.build.colors[colorName]}`).join(';\n  ') %>;
+  <%= Object.keys(options.colors).map(colorName => `${colorName}: ${options.colors[colorName]}`).join(';\n  ') %>;
 }
 
-@rtl: <%= options.build.rtl || false %>;
+@rtl: <%= options.rtl || false %>;
 
 // Core
 @import url('~framework7/components/app/app.less');

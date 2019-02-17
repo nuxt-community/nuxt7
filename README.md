@@ -102,20 +102,66 @@ Router mode. Can be `hash` or `history`.
 
 The `history` mode enables SEO friendly routes by setting `main.pushStateSeparator` value to `''`.
 
-### `build`
+### `invertNav`
 
-- Type: `Object`
+- Type: `boolean`
+- Default: `true`
 
-Framework7 build specific config. See [lib/build-config.js](lib/build-config.js) for all options.
+Invert navigation bars to fill style.
 
-- `rtl`: (Boolean) Enable RTL Layout. Disabled by default.
-- `darkTheme`: (Boolean) Enable darkTheme support. Enabled by default.
-- `themeColor`: (String) Primary app color. Default: `#007aff` (Dodger Blue)
+### `disableContextMenu`
 
-Nuxt7 specific options:
+- Type: `boolean`
+- Default: `true`
 
-- `invertNav`: (Boolean) Invert navigation bars to fill style. Enabled by default.
-- `noLongTap`: (Boolean) Disable mobile browser default "long-tap" actions for all elements. Enabled by default.
+Disable context menu with long touch.
+
+### `disableSelect`
+
+- Type: `boolean`
+- Default: `false`
+
+Disable selection/copy in UIWebView.
+
+### `rtl`
+
+- Type: `boolean`
+- Default: `false`
+
+Enable RTL Layout.
+
+### `themeColor`
+
+- Type: `string`
+- Default: `#007aff` (Dodger Blue)
+
+ Primary app color.
+
+### `themes`
+
+- Type: `array`
+- Default: `['ios', 'md']
+
+### `darkTheme`
+
+- Type: `boolean`
+- Default: `true`
+
+Enable darkTheme support.
+
+### `colors`
+
+- Type: `object`
+- Default: See [lib/build-config.js](lib/build-config.js)
+
+App colors.
+
+### `components`
+
+- Type: `array`
+- Default: See [lib/build-config.js](lib/build-config.js)
+
+Enabled components. (only used for `.less` imports)
 
 ### `css`
 

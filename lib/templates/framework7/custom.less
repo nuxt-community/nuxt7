@@ -1,4 +1,4 @@
-<%if (options.build.invertNav) { %>
+<%if (options.invertNav) { %>
 /* Invert navigation bars to fill style */
 body,
 :root,
@@ -27,10 +27,10 @@ body,
   --f7-button-pressed-bg-color: rgba(255,255,255,0.1);
 }
 <% } %>
-<%if (options.build.noLongTap) { %>
-/* Disable mobile browser default "long-tap" actions for all elements */
+
+<%if (options.disableSelect) { %>
+  /* Disable selection/copy in UIWebView */
 *:not(input):not(textarea) {
-    /* Disable selection/copy in UIWebView */
     user-select: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
