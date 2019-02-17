@@ -22,7 +22,7 @@
     ]
   },
   "dependencies": {
-    "@nuxtjs/pwa": "^3.0.0-beta.6",
+    "@nuxtjs/pwa": "^3.0.0-beta.7",
     "framework7": "^4.0.5",
     "framework7-vue": "^4.0.5",
     "less": "^3.9.0",
