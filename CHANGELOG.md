@@ -2,13 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-# [3.0.0-beta.0](https://github.com/nuxt-community/nuxt7/compare/v2.0.4...v3.0.0-beta.0) (2019-02-17)
+# [3.0.0-beta.1](https://github.com/nuxt-community/nuxt7/compare/v3.0.0-beta.0...v3.0.0-beta.1) (2019-02-17)
+
+
+### Bug Fixes
+
+* use options.build.themeColor ([14d6ff6](https://github.com/nuxt-community/nuxt7/commit/14d6ff6))
 
 
 ### Features
 
-* upgrade for framework7@4.0.0 ([438ecb8](https://github.com/nuxt-community/nuxt7/commit/438ecb8))
-* **pkg:** update all major depndencies ([c23ef51](https://github.com/nuxt-community/nuxt7/commit/c23ef51))
+* default router mode to history ([c69fbee](https://github.com/nuxt-community/nuxt7/commit/c69fbee))
 
 
 
