@@ -2,12 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-# [3.0.0-beta.2](https://github.com/nuxt-community/nuxt7/compare/v3.0.0-beta.1...v3.0.0-beta.2) (2019-02-17)
+# [3.0.0-beta.3](https://github.com/nuxt-community/nuxt7/compare/v3.0.0-beta.2...v3.0.0-beta.3) (2019-02-17)
 
 
 ### Bug Fixes
 
-* **custom:** don't disable context menu of input and textareas ([02a28ca](https://github.com/nuxt-community/nuxt7/commit/02a28ca))
+* **App:** properly pass routes to f7App ([931f46d](https://github.com/nuxt-community/nuxt7/commit/931f46d))
+
+
+### Features
+
+* flatten options ([48b13a2](https://github.com/nuxt-community/nuxt7/commit/48b13a2))
 
 
 
