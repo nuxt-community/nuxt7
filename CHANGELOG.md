@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+# [3.0.0-beta.0](https://github.com/nuxt-community/nuxt7/compare/v2.0.4...v3.0.0-beta.0) (2019-02-17)
+
+
+### Features
+
+* upgrade for framework7@4.0.0 ([438ecb8](https://github.com/nuxt-community/nuxt7/commit/438ecb8))
+* **pkg:** update all major depndencies ([c23ef51](https://github.com/nuxt-community/nuxt7/commit/c23ef51))
+
+
+
 <a name="2.0.4"></a>
 ## [2.0.4](https://github.com/nuxt-community/nuxt7/compare/v2.0.3...v2.0.4) (2019-01-27)
 
