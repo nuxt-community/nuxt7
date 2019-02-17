@@ -64,19 +64,92 @@ To locally run each example:
 
 Add options in `framework7` section inside `nuxt.config.js` file.
 
-| Option       | Type    | Default                                                                                               | Description                                                               |
-| ------------ | ------- | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
-| `css`        | Boolean | `true`                                                                                                | Include Framework7 styles (Useful to disable and provide your own)        |
-| `rtl`        | Boolean | `false`                                                                                               | Enable RTL layout                                                         |
-| `f7Icons`    | Boolean | `true`                                                                                                | Include Framework7 Icons (IOS)                                            |
-| `mdIcons`    | Boolean | `true`                                                                                                | Include MD Icons                                                          |
-| `routes`     | Object  | `true`                                                                                                | Route overrides (see below)                                               |
-| `mode`       | String  | `hash`                                                                                                | Router mode. Can be `hash` or `history`                                   |
-| `view`       | Object  | defaults                                                                                              | Options passed to root view of framework7                                 |
-| `build`      | Object  | [framework7 defaults](https://github.com/framework7io/Framework7/blob/master/scripts/build-config.js) | Framework7 build config used for customizing less variables               |
-| `themeColor` | String  | `undefined`                                                                                           | If specified, automatically sets all global theme colors to this value    |
+### `app`
 
-### routes override
+- Type: `Object`
+
+Default:
+
+```js
+app: {
+  theme: 'auto'
+}
+```
+
+Framework7 constructor params. See [App Component](https://framework7.io/vue/app.html) and [App Docs](https://framework7.io/docs/app.html) for all available parameters.
+
+### `main`
+
+- Type: `Object`
+
+Default:
+
+```js
+main: {
+    main: true,
+    pushState: true
+}
+```
+
+Props passed to the **main** `<f7-view>`. See [View Component](https://framework7.io/vue/view.html) docs for more info.
+
+### `mode`
+
+- Type: `String`
+- Default: `hash`
+
+Router mode. Can be `hash` or `history`.
+
+The `history` mode enables SEO friendly routes by setting `main.pushStateSeparator` value to `''`.
+
+### `build`
+
+- Type: `Object`
+
+Framework7 build specific config. See [lib/build-config.js](lib/build-config.js) for all options.
+
+- `rtl`: (Boolean) Enable RTL Layout. Disabled by default.
+- `darkTheme`: (Boolean) Enable darkTheme support. Enabled by default.
+- `themeColor`: (String) Primary app color. Default: `#007aff` (Dodger Blue)
+
+Nuxt7 specific options:
+
+- `invertNav`: (Boolean) Invert navigation bars to fill style. Enabled by default.
+- `noLongTap`: (Boolean) Disable mobile browser default "long-tap" actions for all elements. Enabled by default.
+
+### `css`
+
+- Type: `Boolean`
+- Default: `true`
+
+Include Framework7 styles.
+
+### `customCSS`
+
+- Type: `Boolean`
+- Default: `true`
+
+Include Nuxt7 custom styles.
+
+
+### `f7Icons`
+
+- Type: `Boolean`
+- Default: `true`
+
+nclude Framework7 Icons (IOS).
+
+### `mdIcons`
+
+- Type: `Boolean`
+- Default: `true`
+
+Include MD Icons (Android).
+
+### `routes`
+
+- Type: `Boolean`
+- Default: `true`
 
 Routes are auto generated using pages directory structure.
 However if you need to make more customization (Like adding routable tabs) this option may be used.
