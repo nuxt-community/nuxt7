@@ -70,7 +70,6 @@ Add options in `framework7` section inside `nuxt.config.js` file.
 | `rtl`        | Boolean | `false`                                                                                               | Enable RTL layout                                                         |
 | `f7Icons`    | Boolean | `true`                                                                                                | Include Framework7 Icons (IOS)                                            |
 | `mdIcons`    | Boolean | `true`                                                                                                | Include MD Icons                                                          |
-| `pwa`        | Boolean | `true`                                                                                                | Enable [@nuxtjs/pwa](https://github.com/nuxt-community/pwa-module) module |
 | `routes`     | Object  | `true`                                                                                                | Route overrides (see below)                                               |
 | `mode`       | String  | `hash`                                                                                                | Router mode. Can be `hash` or `history`                                   |
 | `view`       | Object  | defaults                                                                                              | Options passed to root view of framework7                                 |

@@ -10,7 +10,8 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@nuxtjs/pwa": "latest",
     "nuxt7": "latest",
-    "nuxt": "^2.4.3"
+    "nuxt": "latest"
   }
 }
