@@ -2,17 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-# [3.0.0-beta.3](https://github.com/nuxt-community/nuxt7/compare/v3.0.0-beta.2...v3.0.0-beta.3) (2019-02-17)
+# [3.0.0-beta.4](https://github.com/nuxt-community/nuxt7/compare/v3.0.0-beta.3...v3.0.0-beta.4) (2019-02-18)
 
 
 ### Bug Fixes
 
-* **App:** properly pass routes to f7App ([931f46d](https://github.com/nuxt-community/nuxt7/commit/931f46d))
-
-
-### Features
-
-* flatten options ([48b13a2](https://github.com/nuxt-community/nuxt7/commit/48b13a2))
+* remove lodash and use defu ([717ca74](https://github.com/nuxt-community/nuxt7/commit/717ca74)), closes [#39](https://github.com/nuxt-community/nuxt7/issues/39)
 
 
 
