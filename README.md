@@ -224,13 +224,12 @@ Framework7Vue has it's own router. You can define state in `data()` and use `asy
 
 Middleware also don't work. You can use nuxt plugins instead. (ServerMiddleware are supported in server mode)
 
-**How can i make a standalone app?**
+**How to deploy?**
 
-Nuxt7 is designed to make a fully functional PWA app. If you need an offline APK:
+Nuxt7 is designed to make a fully functional PWA app. Users can install app using "Add to Homescreen".
 
 - Use `nuxt generate` to make a static version
 - Deploy it on your own server or use free services, [now](https://zeit.co/now) or [netlify](https://www.netlify.com) or [surge](https://surge.sh)
-- Use [PWA2APK](https://appmaker.xyz/pwa-to-apk) to generate APK
 
 **How to make sidepanel working?**
 
