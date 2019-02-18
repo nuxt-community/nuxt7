@@ -4,8 +4,8 @@ module.exports = {
   rootDir: resolve(__dirname, '../..'),
   srcDir: __dirname,
   modules: [
-    '@nuxtjs/pwa',
-    '@@/lib/module'
+    '@@/lib/module',
+    '@nuxtjs/pwa'
   ],
   loadingIndicator: false,
   build: {
