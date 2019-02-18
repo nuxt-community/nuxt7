@@ -218,9 +218,11 @@ framework7: {
 
 ## 🤔 Common Questions
 
-**Why `asyncData` is not working?**
+**Why `asyncData`/middleware is not working?**
 
 Framework7Vue has it's own router. You can define state in `data()` and use `async mounted` to fill the state.
+
+Middleware also don't work. You can use nuxt plugins instead. (ServerMiddleware are supported in server mode)
 
 **How can i make an standalone app?**
 
