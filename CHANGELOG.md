@@ -2,12 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-# [3.0.0-beta.4](https://github.com/nuxt-community/nuxt7/compare/v3.0.0-beta.3...v3.0.0-beta.4) (2019-02-18)
+# [3.0.0-beta.5](https://github.com/nuxt-community/nuxt7/compare/v3.0.0-beta.4...v3.0.0-beta.5) (2019-02-18)
 
 
 ### Bug Fixes
 
-* remove lodash and use defu ([717ca74](https://github.com/nuxt-community/nuxt7/commit/717ca74)), closes [#39](https://github.com/nuxt-community/nuxt7/issues/39)
+* **pwa:** fix module order ([3ef9a08](https://github.com/nuxt-community/nuxt7/commit/3ef9a08))
 
 
 
