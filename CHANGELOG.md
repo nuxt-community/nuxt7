@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+# [3.0.0](https://github.com/nuxt-community/nuxt7/compare/v3.0.0-beta.5...v3.0.0) (2019-03-09)
+
+
+
 # [3.0.0-beta.5](https://github.com/nuxt-community/nuxt7/compare/v3.0.0-beta.4...v3.0.0-beta.5) (2019-02-18)
 
 
