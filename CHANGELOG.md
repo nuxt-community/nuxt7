@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+# [3.1.0](https://github.com/nuxt-community/nuxt7/compare/v3.0.0...v3.1.0) (2019-03-20)
+
+
+### Features
+
+* add name property to routes ([#58](https://github.com/nuxt-community/nuxt7/issues/58)) ([ac74dd5](https://github.com/nuxt-community/nuxt7/commit/ac74dd5))
+
+
+
 # [3.0.0](https://github.com/nuxt-community/nuxt7/compare/v3.0.0-beta.5...v3.0.0) (2019-03-09)
 
 
