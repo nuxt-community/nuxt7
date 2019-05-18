@@ -235,6 +235,10 @@ Nuxt7 is designed to make a fully functional PWA app. Users can install app usin
 
 The `default` layout can do the trick. See [kitchen-sink/layouts/default.vue](examples/kitchen-sink/layouts/default.vue) for an example.
 
+**How to create default 404 route?**
+
+Create `pages/default.vue` file. It will be used as fallback route.
+
 ## 🍳 Development
 
 ```bash
