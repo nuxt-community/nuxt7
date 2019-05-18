@@ -45,7 +45,7 @@ to rapidly create efficient and feature-reach [PWA](https://developers.google.co
 Use the command below to create a new app using starter template:
 
 ```bash
-> npx sao nuxt-community/nuxt7 nuxt7-app
+> npx sao@1 nuxt-community/nuxt7 nuxt7-app
 ```
 
 ## ▶️ Examples
