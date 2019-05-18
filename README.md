@@ -218,6 +218,10 @@ framework7: {
 
 ## 🤔 Common Questions
 
+**Can i use this module for my existing nuxt project?**
+
+No. It is highly recommanded to use a standalone project for mobile app.
+
 **Why `asyncData`/middleware is not working?**
 
 Framework7Vue has it's own router. You can define state in `data()` and use `async mounted` to fill the state.
