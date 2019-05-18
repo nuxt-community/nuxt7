@@ -1,6 +1,17 @@
-# Change Log
+# Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+## [3.2.0](https://github.com/nuxt-community/nuxt7/compare/v3.1.0...v3.2.0) (2019-05-18)
+
+
+### Features
+
+* appbar, color-picker, treeview and aurora ([15d5dd6](https://github.com/nuxt-community/nuxt7/commit/15d5dd6))
+* support default route (fixes [#56](https://github.com/nuxt-community/nuxt7/issues/56)) ([02f9402](https://github.com/nuxt-community/nuxt7/commit/02f9402))
+* upgrade to sao@1  (fixes [#64](https://github.com/nuxt-community/nuxt7/issues/64)) ([6539f3a](https://github.com/nuxt-community/nuxt7/commit/6539f3a))
+
+
 
 # [3.1.0](https://github.com/nuxt-community/nuxt7/compare/v3.0.0...v3.1.0) (2019-03-20)
 
