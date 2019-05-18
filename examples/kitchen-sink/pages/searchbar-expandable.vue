@@ -2,13 +2,14 @@
   <f7-page>
     <f7-navbar back-link="Back" title="Searchbar">
       <f7-nav-right>
-        <f7-link class="searchbar-enable" data-searchbar=".searchbar-demo" icon-ios="f7:search" icon-md="material:search"></f7-link>
+        <f7-link class="searchbar-enable" data-searchbar=".searchbar-demo" icon-ios="f7:search" icon-md="material:search" icon-aurora="f7:search"></f7-link>
       </f7-nav-right>
       <f7-searchbar
         class="searchbar-demo"
         expandable
         search-container=".search-list"
         search-in=".item-title"
+        :disable-button="!$theme.aurora"
       ></f7-searchbar>
     </f7-navbar>
     <f7-list class="searchbar-not-found">

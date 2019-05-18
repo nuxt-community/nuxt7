@@ -2,14 +2,20 @@
   <f7-page>
     <f7-navbar large :sliding="false">
       <f7-nav-left>
-        <f7-link panel-open="left" icon-ios="f7:menu" icon-md="material:menu"></f7-link>
+        <f7-link panel-open="left" icon-ios="f7:menu" icon-aurora="f7:menu" icon-md="material:menu"></f7-link>
       </f7-nav-left>
       <f7-nav-title sliding>Framework7 Vue</f7-nav-title>
       <f7-nav-right>
-        <f7-link class="searchbar-enable" data-searchbar=".searchbar-components" icon-ios="f7:search" icon-md="material:search"></f7-link>
+        <f7-link class="searchbar-enable" data-searchbar=".searchbar-components" icon-ios="f7:search" icon-aurora="f7:search" icon-md="material:search"></f7-link>
       </f7-nav-right>
       <f7-nav-title-large>Framework7 Vue</f7-nav-title-large>
-      <f7-searchbar class="searchbar-components" search-container=".components-list" search-in="a" expandable></f7-searchbar>
+      <f7-searchbar
+        class="searchbar-components"
+        search-container=".components-list"
+        search-in="a"
+        expandable
+        :disable-button="!this.$theme.aurora"
+      ></f7-searchbar>
     </f7-navbar>
 
     <f7-list class="searchbar-hide-on-search">
@@ -24,6 +30,9 @@
         <f7-icon slot="media" icon="icon-f7"></f7-icon>
       </f7-list-item>
       <f7-list-item link="/action-sheet/" title="Action Sheet">
+        <f7-icon slot="media" icon="icon-f7"></f7-icon>
+      </f7-list-item>
+      <f7-list-item link="/appbar/" title="Appbar">
         <f7-icon slot="media" icon="icon-f7"></f7-icon>
       </f7-list-item>
       <f7-list-item link="/autocomplete/" title="Autocomplete">
@@ -48,6 +57,9 @@
         <f7-icon slot="media" icon="icon-f7"></f7-icon>
       </f7-list-item>
       <f7-list-item link="/chips/" title="Chips/Tags">
+        <f7-icon slot="media" icon="icon-f7"></f7-icon>
+      </f7-list-item>
+      <f7-list-item link="/color-picker/" title="Color Picker">
         <f7-icon slot="media" icon="icon-f7"></f7-icon>
       </f7-list-item>
       <f7-list-item link="/contacts-list/" title="Contacts List">
@@ -116,16 +128,16 @@
       <f7-list-item link="/panel/" title="Panel / Side Panels">
         <f7-icon slot="media" icon="icon-f7"></f7-icon>
       </f7-list-item>
-      <f7-list-item link="/picker/" title="Picker">
-        <f7-icon slot="media" icon="icon-f7"></f7-icon>
-      </f7-list-item>
       <f7-list-item link="/photo-browser/" title="Photo Browser">
         <f7-icon slot="media" icon="icon-f7"></f7-icon>
       </f7-list-item>
-      <f7-list-item link="/popup/" title="Popup">
+      <f7-list-item link="/picker/" title="Picker">
         <f7-icon slot="media" icon="icon-f7"></f7-icon>
       </f7-list-item>
       <f7-list-item link="/popover/" title="Popover">
+        <f7-icon slot="media" icon="icon-f7"></f7-icon>
+      </f7-list-item>
+      <f7-list-item link="/popup/" title="Popup">
         <f7-icon slot="media" icon="icon-f7"></f7-icon>
       </f7-list-item>
       <f7-list-item link="/preloader/" title="Preloader">
@@ -194,6 +206,9 @@
       <f7-list-item link="/tooltip/" title="Tooltip">
         <f7-icon slot="media" icon="icon-f7"></f7-icon>
       </f7-list-item>
+      <f7-list-item link="/treeview/" title="Treeview">
+        <f7-icon slot="media" icon="icon-f7"></f7-icon>
+      </f7-list-item>
       <f7-list-item link="/virtual-list/" title="Virtual List">
         <f7-icon slot="media" icon="icon-f7"></f7-icon>
       </f7-list-item>
@@ -203,8 +218,9 @@
     </f7-list>
     <f7-block-title class="searchbar-hide-on-search">Themes</f7-block-title>
     <f7-list class="searchbar-hide-on-search">
-      <f7-list-item title="iOS Theme" external link="/?theme=ios"></f7-list-item>
-      <f7-list-item title="Material (MD) Theme" external link="/?theme=md"></f7-list-item>
+      <f7-list-item title="iOS Theme" external link="./index.html?theme=ios"></f7-list-item>
+      <f7-list-item title="Material (MD) Theme" external link="./index.html?theme=md"></f7-list-item>
+      <f7-list-item title="Aurora Desktop Theme" external link="./index.html?theme=aurora"></f7-list-item>
       <f7-list-item title="Color Themes" link="/color-themes/"></f7-list-item>
     </f7-list>
 
