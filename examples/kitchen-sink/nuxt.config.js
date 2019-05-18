@@ -29,5 +29,10 @@ module.exports = {
       }
     }
   },
-  css: ['css/app.css']
+  css: ['css/app.css'],
+  hooks: {
+    'generate:extendRoutes'(routes) {
+      routes.splice(routes.findIndex(r => r.route === '/index.html'), 1)
+    }
+  }
 }
