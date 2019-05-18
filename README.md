@@ -50,7 +50,7 @@ npx sao@1 -u nuxt-community/nuxt7 nuxt7-app
 
 ## ▶️ Examples
 
-* [kitchen-sink](./examples/kitchen-sink) - [online version](https://nuxt7.cf)
+* [kitchen-sink](./examples/kitchen-sink) - [online version](https://nuxt7.netlify.com)
 * [with-params](./examples/with-params)
 * [routable-tabs](./examples/routable-tabs)
 
