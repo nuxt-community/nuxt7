@@ -52,6 +52,7 @@ npx sao@1 -u nuxt-community/nuxt7 nuxt7-app
 
 * [kitchen-sink](./examples/kitchen-sink) - [online version](https://nuxt7.cf)
 * [with-params](./examples/with-params)
+* [routable-tabs](./examples/routable-tabs)
 
 To locally run each example:
 
@@ -215,6 +216,8 @@ framework7: {
     }
 }
 ```
+
+Please see [examples/routable-tabs](./examples/routable-tabs) for a working example.
 
 ## 🤔 Common Questions
 
