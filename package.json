@@ -16,6 +16,9 @@
     "surge": "surge -d https://nuxt7.surge.sh examples/kitchen-sink/dist",
     "release": "standard-version && git push --follow-tags && npm publish"
   },
+  "files": [
+    "lib"
+  ],
   "dependencies": {
     "defu": "^0.0.1",
     "framework7": "^5.7.0",
