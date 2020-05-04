@@ -18,8 +18,8 @@
   },
   "dependencies": {
     "defu": "^0.0.1",
-    "framework7": "^4.4.0",
-    "framework7-vue": "^4.4.0",
+    "framework7": "^5.7.0",
+    "framework7-vue": "^5.7.0",
     "less": "^3.9.0",
     "less-loader": "^5.0.0"
   },
