@@ -150,6 +150,13 @@ Enable RTL Layout.
 
 Enable darkTheme support.
 
+### `lightTheme`
+
+- Type: `boolean`
+- Default: `true`
+
+Enable lightTheme support.
+
 ### `colors`
 
 - Type: `object`
