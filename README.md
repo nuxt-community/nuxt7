@@ -32,7 +32,7 @@ to rapidly create efficient and feature-reach [PWA](https://developers.google.co
 
 ## ✨ Features
 
-* Fully compatible with framework7 2.x
+* Fully compatible with Framework7 5.x
 * Development mode with hot reloading
 * Optimized production builds suitable for 100% static hosting
 * Fully PWA compatible out of the box
