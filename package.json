@@ -20,7 +20,7 @@
     "lib"
   ],
   "dependencies": {
-    "defu": "^0.0.1",
+    "defu": "^2.0.4",
     "framework7": "^5.7.0",
     "framework7-vue": "^5.7.0",
     "less": "^3.9.0",
