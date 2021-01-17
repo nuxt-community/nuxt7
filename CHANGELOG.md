@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.1.0](https://github.com/nuxt-community/nuxt7/compare/v4.0.2...v4.1.0) (2021-01-17)
+
+
+### Features
+
+* use framework7-icon@3 ([4970314](https://github.com/nuxt-community/nuxt7/commit/4970314b95e00b9c8e29decc82ac48d160ab850a)), closes [#121](https://github.com/nuxt-community/nuxt7/issues/121)
+
 ### [4.0.2](https://github.com/nuxt-community/nuxt7/compare/v4.0.1...v4.0.2) (2021-01-17)
 
 
