@@ -3,21 +3,20 @@
   "version": "4.0.1",
   "license": "MIT",
   "main": "lib/module.js",
-  "scripts": {
-    "dev": "yarn ks",
-    "ks:dev": "yarn dev examples/kitchen-sink",
-    "ks:build": "nuxt build examples/kitchen-sink",
-    "ks:analyze": "nuxt build --analyze examples/kitchen-sink",
-    "ks:start": "nuxt start --spa examples/kitchen-sink",
-    "ks:generate": "nuxt generate examples/kitchen-sink",
-    "lint": "eslint --ext .js,.vue lib",
-    "test": "yarn lint",
-    "surge": "surge -d https://nuxt7.surge.sh examples/kitchen-sink/dist",
-    "release": "standard-version && git push --follow-tags && npm publish"
-  },
   "files": [
     "lib"
   ],
+  "scripts": {
+    "dev": "yarn ks:dev",
+    "ks:analyze": "nuxt build --analyze examples/kitchen-sink",
+    "ks:build": "nuxt build examples/kitchen-sink",
+    "ks:dev": "nuxt dev examples/kitchen-sink",
+    "ks:generate": "nuxt generate examples/kitchen-sink",
+    "ks:start": "nuxt start --spa examples/kitchen-sink",
+    "lint": "eslint --ext .js,.vue lib",
+    "release": "standard-version && git push --follow-tags && npm publish",
+    "test": "yarn lint"
+  },
   "dependencies": {
     "defu": "3.2.2",
     "framework7": "^5.7.14",
@@ -26,9 +25,9 @@
     "less-loader": "^6"
   },
   "devDependencies": {
+    "@nuxtjs/eslint-config": "latest",
     "@nuxtjs/pwa": "latest",
     "eslint": "latest",
-    "@nuxtjs/eslint-config": "latest",
     "nuxt-edge": "latest",
     "standard-version": "latest",
     "surge": "latest"
