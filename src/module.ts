@@ -1,9 +1,10 @@
 
-const { resolvePath } = require('./utils')
-const templates = require('./templates')
-const getOptions = require('./options')
+import type { Module } from '@nuxt/types'
+import { resolveRuntimePath } from './utils'
+import { templates } from'./runtime/_templates'
+import { getOptions } from './options'
 
-module.exports = function nuxt7 (options) {
+export default <Module> function nuxt7 (options) {
   this.nuxt.hook('build:before', () => {
     prepareBuild.call(this, options)
   })
@@ -18,7 +19,7 @@ function prepareBuild (_options) {
   this.options.build.ssr = false
 
   // Extend webpack config
-  this.extendBuild(config => {
+  this.extendBuild((config) => {
     // Increase performance check limits to 2M (non-gzipped)
     const MAX_SIZE = 2 * 1024 * 1024
     Object.assign(config.performance, {
@@ -54,7 +55,7 @@ function prepareBuild (_options) {
 
   // Framework7 plugin
   this.addPlugin({
-    src: resolvePath('templates/framework7/plugin.js'),
+    src: resolveRuntimePath('framework7/plugin.js'),
     fileName: 'framework7/plugin.js',
     options
   })
@@ -62,7 +63,7 @@ function prepareBuild (_options) {
   // Copy all templates
   for (const template of templates) {
     this.addTemplate({
-      src: resolvePath('templates/' + template),
+      src: resolveRuntimePath(template),
       fileName: template,
       options
     })

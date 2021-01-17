@@ -1,8 +1,9 @@
-const { resolvePath } = require('./utils')
-const defaults = require('./defaults')
-const defu = require('defu')
+import defu from 'defu'
+import { resolveRuntimePath } from './utils'
+import { defaults } from './defaults'
+import { normalize } from 'upath'
 
-module.exports = function getOptions (_options) {
+export function getOptions (_options) {
   const options = defu({ ...this.options.framework7, ..._options }, defaults)
 
   // History mode
@@ -23,18 +24,18 @@ module.exports = function getOptions (_options) {
 
   // Icons
   if (options.f7Icons) {
-    options.f7IconsSrc = resolvePath('fonts/framework7-icons.css').replace(/\\/g, '\\\\')
+    options.f7IconsSrc = normalize(require.resolve('framework7-icons/css/framework7-icons.css'))
   }
 
   if (options.mdIcons) {
-    options.mdIconsSrc = resolvePath('fonts/material-icons.css').replace(/\\/g, '\\\\')
+    options.mdIconsSrc = resolveRuntimePath('fonts/material-icons.css')
   }
 
   return options
 }
 
 function normalizeComponents (components) {
-  return components.map((name) => ({
+  return components.map(name => ({
     name,
     js: `framework7/components/${name}/${name}.js`,
     less: `~framework7/components/${name}/${name}.less`

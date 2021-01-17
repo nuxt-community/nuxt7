@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [4.0.2](https://github.com/nuxt-community/nuxt7/compare/v4.0.1...v4.0.2) (2021-01-17)
+
+
+### Bug Fixes
+
+* cannot set property $nuxt of #<Vue> which has only a getter ([#116](https://github.com/nuxt-community/nuxt7/issues/116)) ([c4b6260](https://github.com/nuxt-community/nuxt7/commit/c4b6260e1c0e0d1c3c560ef7a64f5c32241b56ce))
+* multiple css provided by user ([#104](https://github.com/nuxt-community/nuxt7/issues/104)) ([a3a9003](https://github.com/nuxt-community/nuxt7/commit/a3a9003d2b8a43212a5871f2905240c8ee3534a5))
+
 ### [4.0.1](https://github.com/nuxt-community/nuxt7/compare/v4.0.0...v4.0.1) (2020-05-04)
 
 

@@ -1,18 +1,14 @@
-const { resolve } = require('path')
+import type { NuxtConfig } from '@nuxt/types'
+import nuxt7 from '../../src/module'
 
-module.exports = {
-  rootDir: resolve(__dirname, '../..'),
-  srcDir: __dirname,
-  modules: [
-    '@@/lib/module',
+export default <NuxtConfig> {
+  buildModules: [
+    nuxt7,
     '@nuxtjs/pwa'
   ],
   loadingIndicator: false,
   build: {
     extractCSS: true
-  },
-  generate: {
-    dir: resolve(__dirname, 'dist')
   },
   manifest: {
     name: 'Nuxt7',

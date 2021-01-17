@@ -1,42 +1,41 @@
 {
   "name": "nuxt7",
-  "version": "4.0.1",
+  "version": "4.0.2",
   "license": "MIT",
-  "main": "lib/module.js",
-  "scripts": {
-    "dev": "npm run ks",
-    "ks": "nuxt dev examples/kitchen-sink",
-    "ks-build": "nuxt build examples/kitchen-sink",
-    "ks-analyze": "nuxt build --analyze examples/kitchen-sink",
-    "ks-start": "nuxt start --spa examples/kitchen-sink",
-    "ks-generate": "nuxt generate examples/kitchen-sink",
-    "lint": "eslint --ext .js,.vue lib",
-    "test": "npm run lint",
-    "precommit": "lint-staged",
-    "surge": "surge -d https://nuxt7.surge.sh examples/kitchen-sink/dist",
-    "release": "standard-version && git push --follow-tags && npm publish"
-  },
+  "main": "dist/module.js",
   "files": [
-    "lib"
+    "dist"
   ],
+  "scripts": {
+    "build": "siroc && mkdist --src src/runtime --dist dist/runtime",
+    "dev": "yarn ks:dev",
+    "ks:analyze": "nuxt build --analyze examples/kitchen-sink",
+    "ks:build": "nuxt build examples/kitchen-sink",
+    "ks:dev": "nuxt dev examples/kitchen-sink",
+    "ks:generate": "nuxt generate examples/kitchen-sink",
+    "ks:start": "nuxt start --spa examples/kitchen-sink",
+    "lint": "eslint --ext .js,.vue,.ts",
+    "release": "yarn test && yarn build && standard-version && git push --follow-tags && npm publish",
+    "test": "yarn lint"
+  },
   "dependencies": {
-    "defu": "^0.0.1",
-    "framework7": "^5.7.0",
-    "framework7-vue": "^5.7.0",
-    "less": "^3.9.0",
-    "less-loader": "^5.0.0"
+    "defu": "3.2.2",
+    "framework7": "^5.7.14",
+    "framework7-icons": "^3.0.1",
+    "framework7-vue": "^5.7.14",
+    "less": "^4.1.0",
+    "less-loader": "^6",
+    "upath": "^2.0.1"
   },
   "devDependencies": {
-    "@nuxtjs/pwa": "^3.0.0-beta.16",
-    "eslint": "^5.16.0",
-    "eslint-config-standard": "^12.0.0",
-    "eslint-plugin-html": "^5.0.5",
-    "eslint-plugin-import": "^2.17.2",
-    "eslint-plugin-node": "^9.0.1",
-    "eslint-plugin-promise": "^4.1.1",
-    "eslint-plugin-standard": "^4.0.0",
-    "nuxt-edge": "^2.7.2-25968968.dbb9f039",
-    "standard-version": "^6.0.1",
-    "surge": "^0.20.5"
+    "@nuxt/types": "^2.14.12",
+    "@nuxtjs/eslint-config-typescript": "latest",
+    "@nuxtjs/pwa": "latest",
+    "eslint": "latest",
+    "mkdist": "^0.1.0",
+    "nuxt-edge": "latest",
+    "siroc": "^0.6.2",
+    "standard-version": "latest",
+    "surge": "latest"
   }
 }
