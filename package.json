@@ -4,7 +4,7 @@
   "license": "MIT",
   "main": "dist/module.js",
   "files": [
-    "lib"
+    "dist"
   ],
   "scripts": {
     "build": "siroc && mkdist --src src/runtime --dist dist/runtime",
@@ -14,8 +14,8 @@
     "ks:dev": "nuxt dev examples/kitchen-sink",
     "ks:generate": "nuxt generate examples/kitchen-sink",
     "ks:start": "nuxt start --spa examples/kitchen-sink",
-    "lint": "eslint --ext .js,.vue lib",
-    "release": "standard-version && git push --follow-tags && npm publish",
+    "lint": "eslint --ext .js,.vue,.ts",
+    "release": "yarn test && yarn build && standard-version && git push --follow-tags && npm publish",
     "test": "yarn lint"
   },
   "dependencies": {
@@ -29,7 +29,7 @@
   },
   "devDependencies": {
     "@nuxt/types": "^2.14.12",
-    "@nuxtjs/eslint-config": "latest",
+    "@nuxtjs/eslint-config-typescript": "latest",
     "@nuxtjs/pwa": "latest",
     "eslint": "latest",
     "mkdist": "^0.1.0",

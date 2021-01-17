@@ -38,5 +38,8 @@ jobs:
       - name: Lint
         run: yarn lint
 
+      - name: Build
+        run: yarn build
+
       - name: Build Kitchen Sink
         run: yarn ks:generate
