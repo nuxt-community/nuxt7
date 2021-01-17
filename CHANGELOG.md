@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.2.0](https://github.com/nuxt-community/nuxt7/compare/v4.1.0...v4.2.0) (2021-01-17)
+
+
+### Features
+
+* add $nuxt.context ([#117](https://github.com/nuxt-community/nuxt7/issues/117)) ([46270b8](https://github.com/nuxt-community/nuxt7/commit/46270b83ffdfe18e0b5b1aca99fede102c6c04fc))
+
 ## [4.1.0](https://github.com/nuxt-community/nuxt7/compare/v4.0.2...v4.1.0) (2021-01-17)
 
 
