@@ -1,6 +1,8 @@
-const { themeColor, colors, themes, components } = require('./build-config')
+import { config } from './build-config'
 
-module.exports = {
+const { themeColor, colors, themes, components } = config
+
+export const defaults = {
   app: {
     theme: 'auto'
   },

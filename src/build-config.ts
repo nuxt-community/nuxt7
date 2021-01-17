@@ -1,6 +1,6 @@
 // Source: https://github.com/framework7io/framework7/blob/master/scripts/build-config.js
 
-const config = {
+export const config = {
   rtl: false,
   components: [
     // Appbar
@@ -146,4 +146,3 @@ const config = {
   }
 }
 
-module.exports = config

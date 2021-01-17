@@ -2,11 +2,12 @@
   "name": "nuxt7",
   "version": "4.0.2",
   "license": "MIT",
-  "main": "lib/module.js",
+  "main": "dist/module.js",
   "files": [
     "lib"
   ],
   "scripts": {
+    "build": "siroc && mkdist --src src/runtime --dist dist/runtime",
     "dev": "yarn ks:dev",
     "ks:analyze": "nuxt build --analyze examples/kitchen-sink",
     "ks:build": "nuxt build examples/kitchen-sink",
@@ -23,13 +24,17 @@
     "framework7-icons": "^3.0.1",
     "framework7-vue": "^5.7.14",
     "less": "^4.1.0",
-    "less-loader": "^6"
+    "less-loader": "^6",
+    "upath": "^2.0.1"
   },
   "devDependencies": {
+    "@nuxt/types": "^2.14.12",
     "@nuxtjs/eslint-config": "latest",
     "@nuxtjs/pwa": "latest",
     "eslint": "latest",
+    "mkdist": "^0.1.0",
     "nuxt-edge": "latest",
+    "siroc": "^0.6.2",
     "standard-version": "latest",
     "surge": "latest"
   }
