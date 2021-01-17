@@ -20,23 +20,23 @@
     "lib"
   ],
   "dependencies": {
-    "defu": "^0.0.1",
-    "framework7": "^5.7.0",
-    "framework7-vue": "^5.7.0",
-    "less": "^3.9.0",
-    "less-loader": "^5.0.0"
+    "defu": "3.2.2",
+    "framework7": "^5.7.14",
+    "framework7-vue": "^5.7.14",
+    "less": "^4.1.0",
+    "less-loader": "^6"
   },
   "devDependencies": {
-    "@nuxtjs/pwa": "^3.0.0-beta.16",
-    "eslint": "^5.16.0",
-    "eslint-config-standard": "^12.0.0",
-    "eslint-plugin-html": "^5.0.5",
-    "eslint-plugin-import": "^2.17.2",
-    "eslint-plugin-node": "^9.0.1",
-    "eslint-plugin-promise": "^4.1.1",
-    "eslint-plugin-standard": "^4.0.0",
-    "nuxt-edge": "^2.7.2-25968968.dbb9f039",
-    "standard-version": "^6.0.1",
-    "surge": "^0.20.5"
+    "@nuxtjs/pwa": "latest",
+    "eslint": "latest",
+    "eslint-config-standard": "latest",
+    "eslint-plugin-html": "latest",
+    "eslint-plugin-import": "latest",
+    "eslint-plugin-node": "latest",
+    "eslint-plugin-promise": "latest",
+    "eslint-plugin-standard": "latest",
+    "nuxt-edge": "latest",
+    "standard-version": "latest",
+    "surge": "latest"
   }
 }
