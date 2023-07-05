@@ -4834,10 +4834,10 @@ fragment-cache@^0.2.1:
   dependencies:
     map-cache "^0.2.2"
 
-framework7-icons@^3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/framework7-icons/-/framework7-icons-3.0.1.tgz#2fdb558c3c0755a97fccdd3412dda05ed1d50a27"
-  integrity sha512-nb+4T//4gyWHUE85szKUm2JlMe/yA1ACW73qzF1EI76r2vkeaKOQ36P8/nwrmUQ2bKyojGQ2gVF0ar7XkaKiog==
+framework7-icons@^5.0.5:
+  version "5.0.5"
+  resolved "https://registry.yarnpkg.com/framework7-icons/-/framework7-icons-5.0.5.tgz#a067709755054c69c22318de94c92bca40f3a908"
+  integrity sha512-bvHMLyujV9TFuudehd3ORZ/EvNp19Ir3ckVzYAOf3MkLymHba/9oHLsgopCh0x5UsrYZUpkrE+fd7ggj5y4wRw==
 
 framework7-vue@^5.7.14:
   version "5.7.14"
