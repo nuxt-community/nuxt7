@@ -32,7 +32,7 @@
     "@nuxtjs/eslint-config-typescript": "latest",
     "@nuxtjs/pwa": "latest",
     "eslint": "latest",
-    "mkdist": "^0.1.0",
+    "mkdist": "^1.4.0",
     "nuxt-edge": "latest",
     "siroc": "^0.6.2",
     "standard-version": "latest",
