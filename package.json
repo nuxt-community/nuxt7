@@ -25,7 +25,7 @@
     "framework7-vue": "^5.7.14",
     "less": "^4.1.0",
     "less-loader": "^6",
-    "upath": "^2.0.1"
+    "upath": "^3.0.8"
   },
   "devDependencies": {
     "@nuxt/types": "^2.14.12",
