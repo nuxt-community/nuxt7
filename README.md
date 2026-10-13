@@ -1,3 +1,6 @@
+> [!NOTE]
+> This repository is archived. `nuxt7` was built for Nuxt 2, which reached end of life on June 30, 2024.
+
 <p align="center">
     <img src="https://github.com/nuxt-community/nuxt7/raw/master/.assets/nuxt7.png" alt="Nuxt7">
 </p>
